@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peter El Khoury | Portfolio</title>
+    <title>💝 A Very Important Question 💝</title>
     <style>
         * {
             margin: 0;
@@ -13,304 +13,249 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-
-        /* Navigation */
-        nav {
-            background: #1a1a2e;
-            padding: 1rem 2rem;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav .logo {
-            color: #e94560;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
-
-        nav ul li a {
-            color: #eee;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #e94560;
-        }
-
-        /* Hero Section */
-        .hero {
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            color: white;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        .hero-content h1 {
-            font-size: 3.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .hero-content h1 span {
-            color: #e94560;
-        }
-
-        .hero-content p {
-            font-size: 1.3rem;
-            color: #b0b0b0;
-            margin-bottom: 2rem;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            padding: 0.8rem 2rem;
-            border: none;
-            border-radius: 50px;
-            font-size: 1rem;
-            cursor: pointer;
-            text-decoration: none;
-            transition: transform 0.3s, box-shadow 0.3s;
-            font-weight: 600;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-        }
-
-        .btn-primary {
-            background: #e94560;
-            color: white;
-        }
-
-        .btn-outline {
-            background: transparent;
-            color: white;
-            border: 2px solid #e94560;
-        }
-
-        /* Sections */
-        section {
-            padding: 5rem 2rem;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #1a1a2e;
-        }
-
-        .section-subtitle {
-            text-align: center;
-            color: #666;
-            margin-bottom: 3rem;
-            font-size: 1.1rem;
-        }
-
-        /* About Section */
-        .about {
-            background: white;
-        }
-
-        .about-content {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 1.1rem;
-            color: #555;
-        }
-
-        /* Skills Section */
-        .skills {
-            background: #f8f9fa;
-        }
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .skill-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            transition: transform 0.3s;
-        }
-
-        .skill-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .skill-card .icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .skill-card h3 {
-            color: #1a1a2e;
-            margin-bottom: 0.5rem;
-        }
-
-        .skill-card p {
-            color: #666;
-            font-size: 0.95rem;
-        }
-
-        /* Projects Section */
-        .projects {
-            background: white;
-        }
-
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .project-card {
-            background: #f8f9fa;
-            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            transition: transform 0.3s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .project-card .project-img {
-            height: 200px;
-            background: linear-gradient(135deg, #1a1a2e, #0f3460);
-            display: flex;
-            align-items: center;
-            justify-content: center;
             color: white;
+        }
+
+        /* Floating Hearts Background */
+        .hearts-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .floating-heart {
+            position: absolute;
+            font-size: 1.5rem;
+            animation: floatUp linear infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.6;
+            }
+            90% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateY(-10vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Main Container */
+        .container {
+            text-align: center;
+            z-index: 10;
+            position: relative;
+            padding: 2rem;
+            max-width: 600px;
+        }
+
+        .bear-emoji {
+            font-size: 6rem;
+            animation: bounce 1s ease infinite;
+            display: inline-block;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .question-text {
+            font-size: 2.5rem;
+            margin: 1.5rem 0;
+            line-height: 1.4;
+            text-shadow: 0 0 20px rgba(233, 69, 96, 0.5);
+        }
+
+        .question-text .highlight {
+            color: #e94560;
+            font-weight: bold;
             font-size: 3rem;
         }
 
-        .project-card .project-info {
-            padding: 1.5rem;
-        }
-
-        .project-card h3 {
-            color: #1a1a2e;
-            margin-bottom: 0.5rem;
-        }
-
-        .project-card p {
-            color: #666;
-            margin-bottom: 1rem;
-        }
-
-        .project-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .project-tags span {
-            background: #e94560;
-            color: white;
-            padding: 0.2rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-        }
-
-        /* Contact Section */
-        .contact {
-            background: #1a1a2e;
-            color: white;
-            text-align: center;
-        }
-
-        .contact .section-title {
-            color: white;
-        }
-
-        .contact .section-subtitle {
+        .subtitle {
+            font-size: 1.2rem;
             color: #b0b0b0;
+            margin-bottom: 2.5rem;
+            font-style: italic;
         }
 
-        .contact-links {
+        /* Buttons */
+        .buttons {
             display: flex;
             justify-content: center;
             gap: 2rem;
             flex-wrap: wrap;
             margin-top: 2rem;
+            position: relative;
         }
 
-        .contact-links a {
-            color: white;
-            text-decoration: none;
-            padding: 0.8rem 1.5rem;
-            border: 2px solid #e94560;
-            border-radius: 50px;
-            transition: all 0.3s;
-        }
-
-        .contact-links a:hover {
+        .btn-yes {
+            padding: 1.2rem 3rem;
+            font-size: 1.5rem;
             background: #e94560;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 25px rgba(233, 69, 96, 0.4);
+            z-index: 100;
         }
 
-        /* Footer */
-        footer {
-            background: #0f0f1a;
+        .btn-yes:hover {
+            transform: scale(1.15);
+            box-shadow: 0 8px 35px rgba(233, 69, 96, 0.6);
+            background: #ff6b81;
+        }
+
+        .btn-no {
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            background: transparent;
             color: #888;
-            text-align: center;
-            padding: 1.5rem;
+            border: 2px solid #888;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.1s ease;
+            position: relative;
+            z-index: 100;
         }
 
-        /* Responsive */
+        /* Celebration Screen */
+        .celebration {
+            display: none;
+            text-align: center;
+            z-index: 10;
+            position: relative;
+            padding: 2rem;
+        }
+
+        .celebration.active {
+            display: block;
+        }
+
+        .container.hidden {
+            display: none;
+        }
+
+        .celebration-emoji {
+            font-size: 8rem;
+            animation: spin 1s ease, pulse 1.5s ease infinite 1s;
+            display: inline-block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg) scale(0); }
+            100% { transform: rotate(360deg) scale(1); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        .celebration h1 {
+            font-size: 3rem;
+            margin: 1rem 0;
+            color: #e94560;
+        }
+
+        .celebration p {
+            font-size: 1.5rem;
+            color: #ddd;
+            margin: 1rem 0;
+        }
+
+        .celebration .small-text {
+            font-size: 1rem;
+            color: #888;
+            margin-top: 2rem;
+            font-style: italic;
+        }
+
+        /* No button escape messages */
+        .escape-msg {
+            position: fixed;
+            font-size: 1.2rem;
+            color: #e94560;
+            font-weight: bold;
+            pointer-events: none;
+            z-index: 999;
+            animation: fadeAway 2s ease forwards;
+            text-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
+        }
+
+        @keyframes fadeAway {
+            0% { opacity: 1; transform: scale(1); }
+            100% { opacity: 0; transform: scale(1.5) translateY(-30px); }
+        }
+
+        /* Growing Yes button */
+        .btn-yes.growing {
+            animation: growPulse 0.3s ease forwards;
+        }
+
+        @keyframes growPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Confetti */
+        .confetti-piece {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            z-index: 1000;
+            animation: confettiFall linear forwards;
+        }
+
+        @keyframes confettiFall {
+            0% { 
+                transform: translateY(-10vh) rotate(0deg); 
+                opacity: 1;
+            }
+            100% { 
+                transform: translateY(110vh) rotate(720deg); 
+                opacity: 0;
+            }
+        }
+
         @media (max-width: 768px) {
-            .hero-content h1 {
+            .question-text {
+                font-size: 1.8rem;
+            }
+            .question-text .highlight {
                 font-size: 2.2rem;
             }
-
-            nav ul {
-                gap: 1rem;
+            .bear-emoji {
+                font-size: 4rem;
             }
-
-            nav ul li a {
-                font-size: 0.9rem;
+            .celebration-emoji {
+                font-size: 5rem;
             }
-
-            .section-title {
+            .celebration h1 {
                 font-size: 2rem;
             }
         }
@@ -318,130 +263,157 @@
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#" class="logo">PK</a>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-bg" id="heartsBg"></div>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Hi, I'm <span>Peter El Khoury</span></h1>
-            <p>Software Developer | Problem Solver | Tech Enthusiast</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-outline">Get In Touch</a>
-            </div>
+    <!-- Question Screen -->
+    <div class="container" id="questionScreen">
+        <div class="bear-emoji">🧸💕</div>
+        <h1 class="question-text">
+            Will you be my<br>
+            <span class="highlight">Valentine?</span> 💝
+        </h1>
+        <p class="subtitle">— From your loving husband, Peter 💌</p>
+        <div class="buttons">
+            <button class="btn-yes" id="yesBtn" onclick="sayYes()">Yes! 💖</button>
+            <button class="btn-no" id="noBtn" onmouseover="escapeNo()" onclick="escapeNo()">No 💔</button>
         </div>
-    </section>
+    </div>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <h2 class="section-title">About Me</h2>
-        <p class="section-subtitle">Get to know me</p>
-        <div class="about-content">
-            <p>
-                I'm a passionate software developer who loves building meaningful applications 
-                and solving complex problems. I'm always eager to learn new technologies and 
-                take on new challenges. Welcome to my portfolio — here you'll find my projects, 
-                skills, and ways to connect with me.
-            </p>
-        </div>
-    </section>
+    <!-- Celebration Screen -->
+    <div class="celebration" id="celebrationScreen">
+        <div class="celebration-emoji">💖</div>
+        <h1>I KNEW IT! 🥳</h1>
+        <p>You had no other choice anyway 😏💕</p>
+        <p>Happy Valentine's Day, my love! 🌹</p>
+        <p class="small-text">...the "No" button was never really an option 😂</p>
+    </div>
 
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <h2 class="section-title">My Skills</h2>
-        <p class="section-subtitle">Technologies I work with</p>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="icon">💻</div>
-                <h3>Frontend Development</h3>
-                <p>HTML, CSS, JavaScript, React</p>
-            </div>
-            <div class="skill-card">
-                <div class="icon">⚙️</div>
-                <h3>Backend Development</h3>
-                <p>Node.js, Python, Java, APIs</p>
-            </div>
-            <div class="skill-card">
-                <div class="icon">🗄️</div>
-                <h3>Databases</h3>
-                <p>SQL, MongoDB, PostgreSQL</p>
-            </div>
-            <div class="skill-card">
-                <div class="icon">🛠️</div>
-                <h3>Tools & DevOps</h3>
-                <p>Git, GitHub, Docker, CI/CD</p>
-            </div>
-        </div>
-    </section>
+    <script>
+        // ========== Floating Hearts ==========
+        const heartEmojis = ['❤️', '💕', '💖', '💗', '💘', '💝', '🌹', '💞', '💓', '✨'];
+        const heartsBg = document.getElementById('heartsBg');
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2 class="section-title">My Projects</h2>
-        <p class="section-subtitle">Some things I've built</p>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-img">🚀</div>
-                <div class="project-info">
-                    <h3>Project One</h3>
-                    <p>A brief description of your first project. Replace this with your actual project details.</p>
-                    <div class="project-tags">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">📱</div>
-                <div class="project-info">
-                    <h3>Project Two</h3>
-                    <p>A brief description of your second project. Replace this with your actual project details.</p>
-                    <div class="project-tags">
-                        <span>Python</span>
-                        <span>Flask</span>
-                        <span>SQL</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">🌐</div>
-                <div class="project-info">
-                    <h3>Project Three</h3>
-                    <p>A brief description of your third project. Replace this with your actual project details.</p>
-                    <div class="project-tags">
-                        <span>JavaScript</span>
-                        <span>API</span>
-                        <span>CSS</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        function createFloatingHeart() {
+            const heart = document.createElement('span');
+            heart.classList.add('floating-heart');
+            heart.textContent = heartEmojis[Math.floor(Math.random() * heartEmojis.length)];
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.fontSize = (Math.random() * 1.5 + 0.8) + 'rem';
+            heart.style.animationDuration = (Math.random() * 5 + 5) + 's';
+            heart.style.animationDelay = (Math.random() * 2) + 's';
+            heartsBg.appendChild(heart);
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="section-subtitle">I'd love to hear from you</p>
-        <div class="contact-links">
-            <a href="mailto:your.email@example.com">📧 Email</a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">💼 LinkedIn</a>
-            <a href="https://github.com/peterkhoury97" target="_blank">🐙 GitHub</a>
-        </div>
-    </section>
+            setTimeout(() => heart.remove(), 12000);
+        }
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Peter El Khoury. All rights reserved.</p>
-    </footer>
+        setInterval(createFloatingHeart, 400);
+
+        // ========== NO Button Logic ==========
+        const noBtn = document.getElementById('noBtn');
+        const yesBtn = document.getElementById('yesBtn');
+        let escapeCount = 0;
+        let yesBtnScale = 1;
+
+        const funnyMessages = [
+            "Nice try! 😂",
+            "Nope, not happening! 🙅",
+            "You can't escape love! 💕",
+            "Haha, try again! 😜",
+            "The button said NO to your NO! 🚫",
+            "Error 404: No not found 😏",
+            "Did you really think? 🤣",
+            "I'm faster than you! ⚡",
+            "Wrong answer, babe! 💝",
+            "That button is broken 😇",
+            "JUST SAY YES ALREADY! 😤💕",
+            "I can do this all day 😎",
+            "The universe says YES! 🌌",
+            "Resistance is futile! 🤖💕",
+            "Your finger slipped, right? 😉",
+            "My love is unavoidable! 💘",
+            "That's not even a real option 😂",
+            "You're only making Yes bigger! 📈",
+            "Come onnnn! 🥺💕",
+            "I believe in you... press Yes! 🙏"
+        ];
+
+        function escapeNo() {
+            escapeCount++;
+
+            // Move the No button to a random position
+            const maxX = window.innerWidth - noBtn.offsetWidth - 20;
+            const maxY = window.innerHeight - noBtn.offsetHeight - 20;
+            const randomX = Math.floor(Math.random() * maxX);
+            const randomY = Math.floor(Math.random() * maxY);
+
+            noBtn.style.position = 'fixed';
+            noBtn.style.left = randomX + 'px';
+            noBtn.style.top = randomY + 'px';
+            noBtn.style.margin = '0';
+
+            // Make the Yes button grow each time
+            yesBtnScale += 0.12;
+            yesBtn.style.transform = `scale(${yesBtnScale})`;
+            yesBtn.classList.add('growing');
+            setTimeout(() => yesBtn.classList.remove('growing'), 300);
+
+            // Show a funny message
+            showEscapeMessage(funnyMessages[(escapeCount - 1) % funnyMessages.length]);
+
+            // Make No button smaller
+            const noScale = Math.max(0.4, 1 - escapeCount * 0.05);
+            noBtn.style.transform = `scale(${noScale})`;
+
+            // After many attempts, change No text
+            if (escapeCount >= 5) noBtn.textContent = "Still no? 😢";
+            if (escapeCount >= 10) noBtn.textContent = "Please? 🥺";
+            if (escapeCount >= 15) noBtn.textContent = "Just click Yes! 😭";
+            if (escapeCount >= 20) noBtn.textContent = "I give up... jk 😂";
+        }
+
+        function showEscapeMessage(msg) {
+            const el = document.createElement('div');
+            el.classList.add('escape-msg');
+            el.textContent = msg;
+            el.style.left = Math.random() * 60 + 20 + '%';
+            el.style.top = Math.random() * 60 + 20 + '%';
+            document.body.appendChild(el);
+            setTimeout(() => el.remove(), 2000);
+        }
+
+        // ========== YES Button Logic ==========
+        function sayYes() {
+            document.getElementById('questionScreen').classList.add('hidden');
+            document.getElementById('celebrationScreen').classList.add('active');
+            launchConfetti();
+            
+            // Extra hearts burst
+            for (let i = 0; i < 30; i++) {
+                setTimeout(createFloatingHeart, i * 100);
+            }
+        }
+
+        // ========== Confetti ==========
+        function launchConfetti() {
+            const colors = ['#e94560', '#ff6b81', '#ff4757', '#ffa502', '#ff6348', '#ee5a24', '#f368e0', '#ff9ff3', '#ffd32a', '#fff200'];
+            
+            for (let i = 0; i < 150; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.classList.add('confetti-piece');
+                    confetti.style.left = Math.random() * 100 + 'vw';
+                    confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.width = (Math.random() * 10 + 5) + 'px';
+                    confetti.style.height = (Math.random() * 10 + 5) + 'px';
+                    confetti.style.borderRadius = Math.random() > 0.5 ? '50%' : '0';
+                    confetti.style.animationDuration = (Math.random() * 2 + 2) + 's';
+                    document.body.appendChild(confetti);
+                    setTimeout(() => confetti.remove(), 4000);
+                }, i * 30);
+            }
+        }
+    </script>
 
 </body>
 </html>
