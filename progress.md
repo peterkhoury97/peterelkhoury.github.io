@@ -23,3 +23,4 @@
 - Live URL: https://peterkhoury97.github.io/peterelkhoury.github.io/.
 - Verified HTTP 200 for the live page and all 10 site assets. Content hashes match local files, allowing normal Git text line-ending normalization; all five screenshot images and CV match binary hashes exactly.
 - Requested the live site be opened in Codex.
+- User reported the old "Built from the API up." caption in the open preview. Fetched local and live HTML confirmed it was already absent. Removed all obsolete .visual-note rules and versioned the stylesheet URL to invalidate stale CSS on reload.
