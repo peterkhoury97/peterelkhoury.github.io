@@ -16,3 +16,6 @@
 - Visually reviewed final desktop hero, featured project, mobile hero and mobile project card. Corrected image proportions and removed a decorative note that overlapped the hero screenshot.
 - Started local preview at http://127.0.0.1:4173 and requested it be opened in Codex.
 - Existing portfolio Git remote is https://github.com/peterkhoury97/peterelkhoury.github.io.git, which differs from its README. Asked user to select the publishing destination before changing a remote site.
+- User explicitly selected https://github.com/peterkhoury97/peterelkhoury.github.io and authorized deployment.
+- Added exact remote and fetched main. Joined histories with an ours merge so prior remote commits remain ancestors without overwriting the new portfolio or force-pushing.
+- Restored the existing Pages workflow and limited its upload to the finished site assets. Updated README to reflect Actions-based deployment.

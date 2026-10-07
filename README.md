@@ -16,15 +16,18 @@ Then open http://127.0.0.1:4173.
 
 GitHub Pages supports public repositories on GitHub Free. See [GitHub's Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
-1. Push the site to a public repository on your GitHub account.
-2. In that repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select **main** and **/ (root)**, then save.
-5. Open the deployment URL shown by GitHub after publishing completes.
+Publishing repository: [peterkhoury97/peterelkhoury.github.io](https://github.com/peterkhoury97/peterelkhoury.github.io).
+
+The existing `.github/workflows/static.yml` publishes this site when changes are pushed to **main**. It packages only `index.html`, `styles.css`, `script.js`, `.nojekyll`, and `assets/`.
+
+1. Push changes to **main** in the selected repository.
+2. In **Settings → Pages**, the source should be **GitHub Actions**.
+3. Wait for **Deploy static content to Pages** to succeed in **Actions**.
+4. Open the deployment URL reported by the workflow.
 
 For a site at `https://peterkhoury97.github.io`, the repository must be named `peterkhoury97.github.io`. Any other repository name uses a project URL such as `https://peterkhoury97.github.io/portfolio/`.
 
-An existing local portfolio checkout points to `peterkhoury97/peterelkhoury.github.io`; that is a different repository name from the account's user-site repository. Verify the intended destination before updating a live site.
+The selected repository uses the project URL `https://peterkhoury97.github.io/peterelkhoury.github.io/` unless a custom domain is configured.
 
 All image, stylesheet, script, and CV references are relative, so root and project Pages URLs both work. `.nojekyll` keeps this a plain static site. The contact action opens email; there is no backend contact form.
 

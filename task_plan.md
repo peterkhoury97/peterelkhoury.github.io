@@ -9,10 +9,11 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 3. Written design and self-review: complete; user approved with "proceed".
 4. Implementation planning: complete; writing-plans skill not installed in available skill locations. Used docs/implementation-plan.md and this existing plan to organize the approved implementation.
 5. Screenshot collection and site implementation: complete.
-6. Responsive, accessibility, content, and deployment checks: complete for the local site; publishing destination clarification pending.
+6. Responsive, accessibility, content, and deployment checks: complete for the local site.
+7. Deploy to the selected peterkhoury97/peterelkhoury.github.io repository: in_progress.
 
 ## Next Step
-Wait for the user's selection of the publishing destination; the complete local site is ready to publish.
+Push the preserved-history deployment commit to main and verify GitHub Pages publishes the expected content.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
