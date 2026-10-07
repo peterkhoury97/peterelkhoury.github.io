@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <meta name="description" content="Peter El-Khoury, software engineer in Riyadh. Java and .NET backends, AI chatbots, business platforms, trading scanners, and automation.">
+  <meta property="og:title" content="Peter El-Khoury — Software Engineer">
+  <meta property="og:description" content="From complex business problems to useful software. Explore my projects, experience, and engineering work.">
+  <meta property="og:type" content="website">
+  <title>Peter El-Khoury — Software Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#" aria-label="Peter El-Khoury, home"><span class="monogram">p<span>.</span></span><span>Peter El-Khoury</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Software engineer · Riyadh &amp; remote</p>
+        <h1 id="hero-title">Complex problems.<br>Useful <span class="accent">software.</span></h1>
+        <p class="hero-description">I’m Peter. I build the backends, business applications, and automation that turn an idea into something people can use.</p>
+        <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="assets/Peter-El-Khoury-CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-footnote">Java &amp; .NET expertise. A product builder’s perspective.</p>
+      </div>
+      <div class="hero-visual" aria-label="A preview of my FreshOps and Pektrix projects">
+        <div class="visual-label"><span class="tiny-cross" aria-hidden="true">✳</span> Ideas, shipped as interfaces.</div>
+        <div class="hero-desktop"><div class="window-bar"><i></i><i></i><i></i><span>FreshOps / operations workspace</span></div><img src="assets/images/freshops.png" width="1440" height="960" alt="FreshOps demo operations dashboard with bookings and team capacity" fetchpriority="high"></div>
+        <div class="hero-phone"><img src="assets/images/pektrix.png" width="410" height="730" alt="Pektrix support chatbot demo widget"></div>
+      </div>
+    </section>
+    <div class="expertise-strip"><div class="container"><span>BACKEND SYSTEMS</span><span aria-hidden="true">✳</span><span>BUSINESS PLATFORMS</span><span aria-hidden="true">✳</span><span>AI &amp; AUTOMATION</span><span aria-hidden="true">✳</span><span>END-TO-END DELIVERY</span></div></div>
+
+    <section class="section container" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="work-title">Built to solve<br>something real.</h2></div><p>Five projects. Different challenges.<br>The same focus on useful, working software.</p></div>
+      <article class="featured-project" id="pektrix">
+        <div class="featured-copy"><p class="project-category">AI &amp; CUSTOMER EXPERIENCE</p><h3>Pektrix</h3><p class="project-subtitle">A chatbot that brings support into the product.</p><p>An embeddable support experience combining AI conversations, messaging, and help content in a widget customers can use without leaving a website.</p><ul class="tags" aria-label="Pektrix technologies"><li>ASP.NET Core</li><li>AI integration</li><li>JavaScript</li></ul>
+          <details><summary>The engineering behind it <span aria-hidden="true">+</span></summary><div class="project-detail"><p><strong>What I built.</strong> The web application, backend services, and embedded widget experience, including tenant-aware configuration and conversational workflows.</p><p><strong>Product focus.</strong> Bring AI and human support into one accessible interface, with responsive layouts and English/Arabic widget support.</p></div></details>
+          <a class="screenshot-link text-link" href="assets/images/pektrix.png" data-title="Pektrix support widget" data-caption="Original project screenshot · demo support widget with sample branding.">Explore the interface <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="featured-media"><span class="media-label">PEKTRIX / SUPPORT WIDGET</span><a class="screenshot-link widget-preview" href="assets/images/pektrix.png" data-title="Pektrix support widget" data-caption="Original project screenshot · demo support widget with sample branding." aria-label="Enlarge Pektrix widget screenshot"><img src="assets/images/pektrix.png" width="410" height="730" alt="Pektrix widget home screen, with Ask a question and Support guide" loading="lazy"></a><span class="media-footnote">Demo widget <span aria-hidden="true">↗</span></span></div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card" id="freshops">
+          <a class="screenshot-link project-image" href="assets/images/freshops.png" data-title="FreshOps operations dashboard" data-caption="Running local demo workspace · bookings, customer and staff names are demo records." aria-label="Enlarge FreshOps screenshot"><div class="window-bar"><i></i><i></i><i></i><span>FreshOps</span><b aria-hidden="true">↗</b></div><img src="assets/images/freshops.png" width="1440" height="960" alt="FreshOps cleaning operations overview with a schedule, team members, services, and payment summaries" loading="lazy"></a>
+          <div class="project-copy"><p class="project-category">BUSINESS OPERATIONS</p><div class="project-title"><h3>FreshOps</h3><span>02</span></div><p>One workspace for running a cleaning business: bookings, customers, dispatch, teams, and payments.</p><ul class="tags" aria-label="FreshOps technologies"><li>ASP.NET Core</li><li>PostgreSQL</li><li>JavaScript</li></ul><details><summary>The engineering behind it <span aria-hidden="true">+</span></summary><div class="project-detail"><p><strong>What I built.</strong> A multi-company operations platform with role-based access, scheduling, pricing rules, recurring bookings, and financial reporting.</p><p><strong>Product focus.</strong> Connect the office and field team through a dispatch board, customer history, and configurable business workflows.</p></div></details></div>
+        </article>
+        <article class="project-card" id="trading">
+          <a class="screenshot-link project-image" href="assets/images/p2p-scanner.png" data-title="Trading scanners — P2P dashboard" data-caption="Local P2P dashboard capture · seller alerts omitted. Displayed price/spread calculations are a market snapshot, not realized trading returns." aria-label="Enlarge trading scanner screenshot"><div class="window-bar"><i></i><i></i><i></i><span>P2P scanner / market monitoring</span><b aria-hidden="true">↗</b></div><img src="assets/images/p2p-scanner.png" width="1440" height="960" alt="P2P scanner dashboard with market monitoring, price comparisons, depth, history, and arbitrage sections" loading="lazy"></a>
+          <div class="project-copy"><p class="project-category">MARKET TOOLS &amp; AUTOMATION</p><div class="project-title"><h3>Trading scanners</h3><span>03</span></div><p>TradingView strategy scans and P2P crypto monitoring that turn market data into clear watchlists and alerts.</p><ul class="tags" aria-label="Trading technologies"><li>JavaScript</li><li>Pine Script</li><li>.NET</li><li>Market APIs</li></ul><details><summary>The engineering behind it <span aria-hidden="true">+</span></summary><div class="project-detail"><p><strong>TradingView.</strong> Automated premarket gapper and strategy scanning with scheduled checks, duplicate prevention, and Telegram reporting.</p><p><strong>P2P markets.</strong> Exchange price comparison, configurable filters, historical tracking, and alerting. The screenshot shows the P2P dashboard; TradingView is a separate workflow.</p><p><strong>Product focus.</strong> Make research repeatable and surface relevant market conditions for manual review.</p></div></details></div>
+        </article>
+        <article class="project-card" id="leadbot">
+          <a class="screenshot-link project-image" href="assets/images/leadbot.png" data-title="LeadBot dashboard" data-caption="Original frontend template preview · empty dataset, sample city/type selections; no scraping or outreach was run." aria-label="Enlarge LeadBot screenshot"><div class="window-bar"><i></i><i></i><i></i><span>LeadBot / research dashboard</span><b aria-hidden="true">↗</b></div><img src="assets/images/leadbot.png" width="1440" height="960" alt="LeadBot dashboard showing search configuration, lead statistics, and an empty activity log" loading="lazy"></a>
+          <div class="project-copy"><p class="project-category">LEAD GENERATION</p><div class="project-title"><h3>LeadBot</h3><span>04</span></div><p>Automated business research and contact discovery, with a dashboard for managing collection and exports.</p><ul class="tags" aria-label="LeadBot technologies"><li>Python</li><li>Flask</li><li>Redis</li><li>Google Sheets</li></ul><p class="preview-label">Frontend preview · empty dataset</p><details><summary>The engineering behind it <span aria-hidden="true">+</span></summary><div class="project-detail"><p><strong>What I built.</strong> An asynchronous research pipeline with multiple search engines, contact extraction, business filters, and a web dashboard.</p><p><strong>Product focus.</strong> Reduce repetitive research and organize results through CSV export and Google Sheets integration.</p></div></details></div>
+        </article>
+        <article class="project-card" id="sports">
+          <a class="screenshot-link project-image" href="assets/images/sports-booking.png" data-title="Sports Booking — One Games" data-caption="Original OneSportsApp sign-in frontend preview · original HTML, logo, and CSS; authentication and booking services were not running." aria-label="Enlarge Sports Booking screenshot"><div class="window-bar"><i></i><i></i><i></i><span>One Games / sports booking</span><b aria-hidden="true">↗</b></div><img src="assets/images/sports-booking.png" width="1440" height="960" alt="One Games Sports Booking sign-in interface with original sports logo and account form" loading="lazy"></a>
+          <div class="project-copy"><p class="project-category">SPORTS &amp; BOOKING</p><div class="project-title"><h3>Sports Booking</h3><span>05</span></div><p>A platform connecting players with clubs and pitches, with venue discovery, reservations, and real-time communication.</p><ul class="tags" aria-label="Sports Booking technologies"><li>ASP.NET Core</li><li>SQL Server</li><li>SignalR</li><li>Flutter</li></ul><p class="preview-label">Frontend preview · sign-in screen</p><details><summary>The engineering behind it <span aria-hidden="true">+</span></summary><div class="project-detail"><p><strong>What I built.</strong> Sports club, pitch, and reservation workflows, backed by APIs and a separate real-time chat service.</p><p><strong>Product focus.</strong> Help players find venues and coordinate bookings. My broader Sports Booking work also includes Flutter and Google Maps integration, as described in my CV.</p></div></details></div>
+        </article>
+      </div>
+      <p class="work-note">Screens from my projects. Click any image to take a closer look.</p>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title"><div class="container experience-layout"><div class="experience-intro"><p class="eyebrow">02 / Experience</p><h2 id="experience-title">Product thinking.<br>Engineering depth.</h2><p>From banking integrations to business platforms, I bring hands-on experience across the full software lifecycle.</p><a class="text-link" href="assets/Peter-El-Khoury-CV.pdf" download>Get the full CV <span aria-hidden="true">↓</span></a></div>
+      <div class="timeline">
+        <article><div class="role-heading"><h3>Emcrey</h3><span>2023 — Present*</span></div><p class="role">Senior Backend Java Developer · Riyadh</p><p>Banking systems for letters of credit and guarantees. Spring Boot microservices, external integrations, IBM MQ, Kafka, and notification services.</p></article>
+        <article><div class="role-heading"><h3>Clover Broker</h3><span>2023 — 2025</span></div><p class="role">Full Stack .NET Developer · Freelance</p><p>End-to-end insurance brokerage platform covering policies, payments, reports, and administration, with Azure deployment and automated delivery.</p></article>
+        <article><div class="role-heading"><h3>Onsite Snagging</h3><span>2020 — 2023</span></div><p class="role">Lead Full Stack Web Developer</p><p>Enterprise modules, document workflows, dynamic forms, mobile APIs, and automated tests. Led sprint planning and code reviews.</p></article>
+        <article><div class="role-heading"><h3>Earlier foundations</h3><span>2018 — 2020</span></div><p class="role">Exquitech · Neorcha · GridPos</p><p>Full stack development, mobile apps, Java services, and desktop applications across hospitality, quality control, and retail.</p></article>
+        <p class="timeline-note">*Employment dates follow the supplied CV.</p>
+      </div>
+    </div></section>
+
+    <section class="section container about-layout" id="about" aria-labelledby="about-title"><div><p class="eyebrow">03 / A little about me</p><h2 id="about-title">I connect the pieces.</h2><p class="about-lead">A good interface needs a dependable backend. A good backend needs to solve the right problem.</p><p>I work across both. My core strengths are Java and .NET, API design, and business systems. I also build automation and product interfaces, taking projects from requirements through implementation and deployment.</p><p class="education">B.Sc. Computer Science<br><span>Lebanese Canadian University · 2018</span></p></div><div class="skills"><div><h3>Backend &amp; architecture</h3><p>Java · C# · Spring Boot · ASP.NET Core<br>REST APIs · Microservices · Event-driven systems</p></div><div><h3>Data &amp; integration</h3><p>SQL Server · PostgreSQL · MySQL<br>Entity Framework · Dapper · Kafka · IBM MQ</p></div><div><h3>Products &amp; delivery</h3><p>JavaScript · Python · Flutter<br>Azure · AWS · Docker · GitHub Actions</p></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container"><p class="eyebrow">04 / Let’s build something useful</p><div class="contact-heading"><h2 id="contact-title">Have a problem<br>worth solving<span>?</span></h2><a class="contact-arrow" href="mailto:peterelkhoury97@gmail.com" aria-label="Email Peter El-Khoury"><span aria-hidden="true">↗</span></a></div><div class="contact-bottom"><a class="email-link" href="mailto:peterelkhoury97@gmail.com">peterelkhoury97@gmail.com</a><p>Based in Riyadh.<br>Let’s talk about your project or engineering team.</p></div></div></section>
+  </main>
+  <footer class="container footer"><p>© <span id="year">2026</span> Peter El-Khoury</p><p class="footer-note">Thoughtfully built. Simply delivered.</p><div><a href="https://github.com/peterkhoury97" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="assets/Peter-El-Khoury-CV.pdf" download>CV <span aria-hidden="true">↓</span></a><a href="#main">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+  <dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-top"><h2 id="image-title">Project screenshot</h2><button id="close-dialog" type="button" aria-label="Close screenshot">Close <span aria-hidden="true">×</span></button></div><div class="dialog-image"><img id="enlarged-image" alt=""></div><p id="image-caption"></p></dialog>
+</body>
+</html>

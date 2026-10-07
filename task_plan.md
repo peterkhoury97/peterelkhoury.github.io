@@ -6,13 +6,13 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 ## Phases
 1. Source discovery and project identification: complete.
 2. Design proposal: complete; user approved project-first direction with "proceed".
-3. Written design and self-review: complete; awaiting required written-spec review.
-4. Implementation planning: pending written-spec review and writing-plans skill discovery.
-5. Screenshot collection and site implementation: pending.
-6. Responsive, accessibility, content, and deployment checks: pending.
+3. Written design and self-review: complete; user approved with "proceed".
+4. Implementation planning: complete; writing-plans skill not installed in available skill locations. Used docs/implementation-plan.md and this existing plan to organize the approved implementation.
+5. Screenshot collection and site implementation: complete.
+6. Responsive, accessibility, content, and deployment checks: complete for the local site; publishing destination clarification pending.
 
 ## Next Step
-Get the user's review of docs/superpowers/specs/2026-10-07-portfolio-design.md as required by the explicitly invoked brainstorming skill.
+Wait for the user's selection of the publishing destination; the complete local site is ready to publish.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
@@ -27,3 +27,8 @@ Get the user's review of docs/superpowers/specs/2026-10-07-portfolio-design.md a
 | Listing C:/Users/peter was denied | Use exact project paths returned by Codex project inventory. |
 | CV extraction hit Windows output encoding error | Use Python -X utf8. |
 | Broad file search returned excessive vendor assets | Limit later searches to relevant extensions and subdirectories. |
+| Shell sandbox setup refresh fails | Use approved elevated shell calls; file editing tools still work. |
+| Browser UI automation sandbox startup fails | Use bundled headless Playwright for local screenshot/website checks. |
+| TradingView screenshot connector unavailable | Use actual P2P dashboard image for combined card; describe TradingView separately. |
+| Jinja2 unavailable in bundled Python | Render the two original frontend template loops with standard-library substitutions. |
+| Tablet overflow caused by fixed screenshot heights | Set global image height:auto; all five responsive widths pass. |
