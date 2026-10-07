@@ -14,4 +14,12 @@
 - No JavaScript exceptions or failed static resources in browser checks.
 - Desktop and mobile screenshots inspected visually; image distortion and tablet overflow corrected.
 
-GitHub Pages setup is documented. Remote publishing remains dependent on the user's choice of destination; no deployment is claimed from local checks.
+## Live deployment
+
+Published to the user-selected [peterkhoury97/peterelkhoury.github.io repository](https://github.com/peterkhoury97/peterelkhoury.github.io).
+
+- [GitHub Pages site](https://peterkhoury97.github.io/peterelkhoury.github.io/).
+- Deployment commit: `29638c7eb5fb0368017f14d5909af34b4a62a526`.
+- [Verified successful Pages run](https://github.com/peterkhoury97/peterelkhoury.github.io/actions/runs/37625197500).
+- Live HTML, stylesheet, script, favicon, CV and all five images verified against local content. Text file hashes normalized for Git's Windows/Linux newline conversion; binary assets match exactly.
+- Prior repository history preserved. Publishing workflow packages only the site assets, excluding design/research documents.

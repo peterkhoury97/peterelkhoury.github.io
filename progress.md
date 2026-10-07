@@ -19,3 +19,7 @@
 - User explicitly selected https://github.com/peterkhoury97/peterelkhoury.github.io and authorized deployment.
 - Added exact remote and fetched main. Joined histories with an ours merge so prior remote commits remain ancestors without overwriting the new portfolio or force-pushing.
 - Restored the existing Pages workflow and limited its upload to the finished site assets. Updated README to reflect Actions-based deployment.
+- Pushed deployment commit 29638c7 to main without force. GitHub Actions run 37625197500 completed successfully, including the Pages deployment step.
+- Live URL: https://peterkhoury97.github.io/peterelkhoury.github.io/.
+- Verified HTTP 200 for the live page and all 10 site assets. Content hashes match local files, allowing normal Git text line-ending normalization; all five screenshot images and CV match binary hashes exactly.
+- Requested the live site be opened in Codex.
