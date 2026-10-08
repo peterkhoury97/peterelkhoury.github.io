@@ -14,10 +14,10 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 8. Create Europe, Gulf and Canada PDF CV editions with project and profile links: complete.
 9. Render and verify all six pages and document links: complete.
 10. Add Peter Personal Trainer to the portfolio and all three CV editions: complete; real public screenshot, seven CV projects, two pages each.
-11. Publish and verify the trainer addition on GitHub Pages: in progress.
+11. Publish and verify the trainer addition on GitHub Pages: complete; deployment run 37759286668 succeeded and all 11 public assets matched the local files.
 
 ## Next Step
-Verify the updated GitHub Pages deployment. Updated regional PDF CVs are saved under output/pdf.
+Complete. The updated portfolio is live and verified. Updated regional PDF CVs are saved under output/pdf.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.

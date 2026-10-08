@@ -35,3 +35,4 @@
 - Added the trainer project to Europe, Gulf and Canada CVs. Condensed project descriptions to retain seven projects at two pages per edition; preserved employment history and contact/profile URLs.
 - Re-rendered and visually reviewed all six updated CV pages. Text extraction, project names, page counts and nine link annotations per PDF passed.
 - Portfolio checks passed at 1440, 1024, 768, 360 and 320px with no horizontal overflow, failed assets or browser errors. Reviewed the trainer card at desktop, tablet and mobile sizes; its link, screenshot dialog and details passed.
+- Published website commit 01faf95 to the selected repository. GitHub Pages run 37759286668 succeeded, including its deployment step; all 11 live files match the reviewed local website. Regional CV editions remain separate local deliverables.
