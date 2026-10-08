@@ -9,6 +9,7 @@ Captured/collected on 2026-10-07. No AI-generated or fictional application image
 | p2p-scanner.png | Running P2PSaudi dashboard at localhost:5180 | Actual dashboard. Seller alerts and event stream omitted only in the capture browser so seller identifiers do not appear. Market snapshot calculations retained; these are not realized returns. No scan, threshold change, trade or alert was initiated. |
 | leadbot.png | LeadBot/src/leadbot/templates/index.html and static/style.css | Original frontend rendered with empty counters and Beirut/Riyadh, clinic/pharmacy selections. Runtime scripts disabled. No scraping, storage, Sheets calls, or outreach. Explicitly labeled frontend preview on the site. |
 | sports-booking.png | peterkhoury97/OneSportsApp/Views/User/Login.cshtml and original wwwroot assets | Original Razor sign-in frontend rendered without backend statements, retaining original HTML/logo/CSS. No database or authentication service started. Explicitly labeled sign-in frontend preview on the site. |
+| personal-trainer.png | Live public homepage at https://form-flow-personal-training.peterkhoury.chatgpt.site/ | Captured 2026-10-08 at 1440 x 960. Original site screenshot with its sample plan illustration. No assessment, application, email or member login was submitted. |
 
 TradingView chart capture was unavailable because the TradingView connector could not establish its browser connection. The combined trading card uses the P2P screenshot and clearly distinguishes the TradingView workflow in its description.
 

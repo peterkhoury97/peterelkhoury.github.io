@@ -1,7 +1,7 @@
 # Portfolio task plan
 
 ## Goal
-Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in his CV and five owned projects, with genuine project screenshots and GitHub Pages deployment support.
+Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in his CV and six owned projects, with genuine project screenshots and GitHub Pages deployment support.
 
 ## Phases
 1. Source discovery and project identification: complete.
@@ -11,13 +11,17 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 5. Screenshot collection and site implementation: complete.
 6. Responsive, accessibility, content, and deployment checks: complete for the local site.
 7. Deploy to the selected peterkhoury97/peterelkhoury.github.io repository: complete.
+8. Create Europe, Gulf and Canada PDF CV editions with project and profile links: complete.
+9. Render and verify all six pages and document links: complete.
+10. Add Peter Personal Trainer to the portfolio and all three CV editions: complete; real public screenshot, seven CV projects, two pages each.
+11. Publish and verify the trainer addition on GitHub Pages: in progress.
 
 ## Next Step
-Complete. The live site is https://peterkhoury97.github.io/peterelkhoury.github.io/.
+Verify the updated GitHub Pages deployment. Updated regional PDF CVs are saved under output/pdf.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
-- Five project stories: Pektrix, FreshOps, trading scanners, LeadBot, Sports Booking.
+- Six project stories: Pektrix, FreshOps, trading scanners, LeadBot, Sports Booking, Peter Personal Trainer.
 - User chose both TradingView and P2P scanners under one trading project.
 - Current workspace was empty and had no Git repository at discovery.
 

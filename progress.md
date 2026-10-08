@@ -24,3 +24,14 @@
 - Verified HTTP 200 for the live page and all 10 site assets. Content hashes match local files, allowing normal Git text line-ending normalization; all five screenshot images and CV match binary hashes exactly.
 - Requested the live site be opened in Codex.
 - User reported the old "Built from the API up." caption in the open preview. Fetched local and live HTML confirmed it was already absent. Removed all obsolete .visual-note rules and versioned the stylesheet URL to invalidate stale CSS on reload.
+- Created Europe and Gulf A4 CVs and a Canada Letter resume, each exactly two pages. Adapted summary, skill emphasis, achievement ordering and project order while retaining source roles, dates, figures and contact details.
+- Included Pektrix, FreshOps, trading scanners, LeadBot, Sports Booking and the original CV's Singitak project in all editions.
+- Added clickable full portfolio/GitHub URLs, email link and five project-section links in each PDF.
+- Rendered all six final pages with Poppler and inspected typography, spacing, page breaks and footer placement. Checked page counts, extractable text and link annotations. No nationality, visa status, language proficiency, Canadian residency or qualifications were invented.
+
+## 2026-10-08
+- Verified Peter Personal Trainer against its project source and live public website; captured its homepage at 1440 x 960 without submitting forms or entering the member portal.
+- Added a sixth portfolio story with screenshot enlargement, a live website link, and source-backed assessment, plan/PDF, trainer-review and member-portal details.
+- Added the trainer project to Europe, Gulf and Canada CVs. Condensed project descriptions to retain seven projects at two pages per edition; preserved employment history and contact/profile URLs.
+- Re-rendered and visually reviewed all six updated CV pages. Text extraction, project names, page counts and nine link annotations per PDF passed.
+- Portfolio checks passed at 1440, 1024, 768, 360 and 320px with no horizontal overflow, failed assets or browser errors. Reviewed the trainer card at desktop, tablet and mobile sizes; its link, screenshot dialog and details passed.

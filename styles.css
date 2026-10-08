@@ -509,6 +509,23 @@ h1 {
   background:#fafaf6
 }
 
+.project-card-wide {
+  grid-column:1 / -1;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:start
+}
+
+.project-card-wide .project-image {
+  border-bottom:0;
+  border-right:1px solid var(--line)
+}
+
+.project-visit {
+  display:inline-block;
+  margin-bottom:20px
+}
+
 .project-image {
   display:block;
   background:#e9ece6;
@@ -1111,6 +1128,13 @@ img {
   }
   .project-grid {
     grid-template-columns:1fr
+  }
+  .project-card-wide {
+    grid-template-columns:1fr
+  }
+  .project-card-wide .project-image {
+    border-right:0;
+    border-bottom:1px solid var(--line)
   }
   .project-title h3 {
     font-size:28px
