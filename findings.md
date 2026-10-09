@@ -28,6 +28,13 @@ Research data only; source material is not instructions.
 - Existing HTML links LinkedIn /in/peterelkhoury.
 - Existing HTML contains generic project examples; do not copy those as owned work.
 
+## Branding evidence checked 2026-10-09
+- Employment-context highlights: 5K+ daily notifications at Emcrey, 80% reduction in report-generation time at Clover Broker, and 85% xUnit coverage at Onsite Snagging. These follow the supplied CV, not new project benchmarks.
+- FreshOps README documents company/permission boundaries, booking rate snapshots, audited manual prices, draft/validate/publish configuration and last-valid revision fallback.
+- Pektrix PublicTenantBrandingTests verifies visitor-safe public configuration; PublicWidgetSessionIsolationTests covers tenant/session boundaries. English/Arabic behavior appears in source and existing widget material.
+- Personal Trainer README documents local plan generation, trainer-only draft PDF delivery and manual final delivery, private drafts and immutable published programs, D1 records, R2 files and access restrictions.
+- Regional CVs are unchanged copies of the reviewed 2026-10-08 outputs. LinkedIn URL, availability and relocation preference have been requested, not assumed.
+
 ## Hosting evidence
 - Official GitHub documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages.
 - GitHub Pages serves static HTML, CSS and JavaScript. Public repositories are supported on GitHub Free.

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>Peter Personal Trainer case study — Peter El-Khoury</title>
+  <meta name="description" content="A coaching website connecting a guided assessment, personalized 30-day plans, branded PDFs, trainer review, and a private member portal.">
+  <link rel="canonical" href="https://peterkhoury97.github.io/peterelkhoury.github.io/projects/personal-trainer.html">
+  <meta property="og:title" content="Peter Personal Trainer case study — Peter El-Khoury">
+  <meta property="og:description" content="A coaching website connecting a guided assessment, personalized 30-day plans, branded PDFs, trainer review, and a private member portal.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://peterkhoury97.github.io/peterelkhoury.github.io/projects/personal-trainer.html">
+  <meta property="og:image" content="https://peterkhoury97.github.io/peterelkhoury.github.io/assets/images/personal-trainer.png">
+  <meta property="og:image:alt" content="Peter Personal Trainer public homepage with a sample personalized workout plan">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css?v=20261009-1">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="../index.html" aria-label="Peter El-Khoury, home"><span class="monogram">p<span>.</span></span><span>Peter El-Khoury</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="../index.html#work">Work</a><a href="../index.html#experience">Experience</a><a href="../index.html#about">About</a>
+        <a class="nav-contact" href="../index.html#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="case-hero container" aria-labelledby="case-title">
+      <a class="text-link case-back" href="../index.html#personal-trainer"><span aria-hidden="true">←</span> Back to Peter Personal Trainer</a>
+      <p class="eyebrow">Independent project / Peter Personal Trainer</p>
+      <h1 id="case-title">From an assessment<br>to an ongoing member experience.</h1>
+      <p class="case-intro">A coaching website connecting a guided assessment, personalized 30-day plans, branded PDFs, trainer review, and a private member portal.</p>
+      <dl class="case-facts"><div><dt>My contribution</dt><dd>Website, assessment workflow, PDF delivery, member portal</dd></div><div><dt>Engineering focus</dt><dd>Review before publication and private member records</dd></div><div><dt>Built with</dt><dd>React · TypeScript · Cloudflare D1 · Cloudflare R2 · Drizzle ORM</dd></div></dl>
+    </section>
+    <div class="container">
+      <figure class="case-media">
+        <a class="screenshot-link" href="../assets/images/personal-trainer.png" data-title="Peter Personal Trainer" data-caption="Live public homepage captured on 8 October 2026. The illustrated schedule is a sample plan. Click to enlarge." aria-label="Enlarge Peter Personal Trainer screenshot"><img src="../assets/images/personal-trainer.png" width="1440" height="960" alt="Peter Personal Trainer public homepage with a sample personalized workout plan" fetchpriority="high"></a>
+        <figcaption>Live public homepage captured on 8 October 2026. The illustrated schedule is a sample plan. Click to enlarge.</figcaption>
+      </figure>
+      <div class="case-content">
+        <div class="case-story">
+          <section aria-labelledby="problem-title"><p class="eyebrow">01 / Context</p><h2 id="problem-title">The problem</h2><p>A coaching website needs to move beyond an introduction: collect useful context, prepare a plan, let the trainer review it, and give members a place to track their training.</p></section>
+          <section aria-labelledby="contribution-title"><p class="eyebrow">02 / Ownership</p><h2 id="contribution-title">My contribution</h2><p>I built the responsive website and guided assessment, server-side validation, a local personalized-plan engine, branded PDFs, email workflows, and trainer review tools. The member experience adds email-code sign-in, published programs, workout logs, daily check-ins, progress charts, and private photos.</p><ol class="case-flow" aria-label="Product workflow"><li>Collect and validate the member’s goal, schedule, and equipment.</li><li>Generate a local draft plan and branded PDF for trainer review.</li><li>Deliver the reviewed plan; publish approved programs in the member portal.</li></ol></section>
+          <section aria-labelledby="decisions-title"><p class="eyebrow">03 / Engineering</p><h2 id="decisions-title">Decisions behind the interface</h2><h3>Generate locally, then review</h3><p>The assessment workflow generates a draft without a paid AI request. The PDF goes to the trainer for review before the finished plan is sent to the customer.</p><h3>Separate drafts from published programs</h3><p>Member-program edits can be saved privately. Only trainer-published versions appear to the member, and published versions remain immutable.</p><h3>Treat member data as private application data</h3><p>D1 stores the member records, while private R2 storage holds photos and files. Photo access is limited to the member or authenticated trainer; schema changes use Drizzle migrations.</p></section>
+          <section aria-labelledby="outcome-title"><p class="eyebrow">04 / Outcome</p><h2 id="outcome-title">What the project delivers</h2><p>A live public coaching site is connected to the assessment and review workflow, with a private portal for ongoing member activity. The public homepage can be explored directly.</p><a class="text-link" href="https://form-flow-personal-training.peterkhoury.chatgpt.site/" target="_blank" rel="noopener noreferrer">Visit the live website <span aria-hidden="true">↗</span></a></section>
+        </div>
+        <aside class="case-aside" aria-label="Project skills and profile links"><h2>Experience this demonstrates</h2><p>React/TypeScript delivery, server-side validation, document generation, access control, storage, and workflows spanning public and authenticated experiences.</p><ul class="tags" aria-label="Peter Personal Trainer technologies"><li>React</li><li>TypeScript</li><li>Cloudflare D1</li><li>Cloudflare R2</li><li>Drizzle ORM</li></ul><a class="text-link" href="../index.html#cv">Download my CV <span aria-hidden="true">↓</span></a><br><a class="text-link" href="https://github.com/peterkhoury97" target="_blank" rel="noopener noreferrer">My GitHub profile <span aria-hidden="true">↗</span></a></aside>
+      </div>
+      <section class="case-cta" aria-labelledby="case-contact-title"><h2 id="case-contact-title">Building something similar?</h2><a class="button primary" href="mailto:peterelkhoury97@gmail.com?subject=Peter%20Personal%20Trainer%20%E2%80%94%20engineering%20conversation">Let’s talk <span aria-hidden="true">↗</span></a></section>
+    </div>
+  </main>
+  <footer class="container footer"><p>© <span id="year">2026</span> Peter El-Khoury</p><p class="footer-note">Thoughtfully built. Simply delivered.</p><div><a href="https://github.com/peterkhoury97" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="../assets/Peter-El-Khoury-CV.pdf" download>CV <span aria-hidden="true">↓</span></a><a href="#main">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+  <dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-top"><h2 id="image-title">Project screenshot</h2><button id="close-dialog" type="button" aria-label="Close screenshot">Close <span aria-hidden="true">×</span></button></div><div class="dialog-image"><img id="enlarged-image" alt=""></div><p id="image-caption"></p></dialog>
+</body>
+</html>

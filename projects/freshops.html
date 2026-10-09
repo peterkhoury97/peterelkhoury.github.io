@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>FreshOps case study — Peter El-Khoury</title>
+  <meta name="description" content="A multi-company operations platform connecting customers, service bookings, staff capacity, dispatch, and payments for a cleaning business.">
+  <link rel="canonical" href="https://peterkhoury97.github.io/peterelkhoury.github.io/projects/freshops.html">
+  <meta property="og:title" content="FreshOps case study — Peter El-Khoury">
+  <meta property="og:description" content="A multi-company operations platform connecting customers, service bookings, staff capacity, dispatch, and payments for a cleaning business.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://peterkhoury97.github.io/peterelkhoury.github.io/projects/freshops.html">
+  <meta property="og:image" content="https://peterkhoury97.github.io/peterelkhoury.github.io/assets/images/freshops.png">
+  <meta property="og:image:alt" content="FreshOps local demo overview with bookings, team capacity and payment summaries">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css?v=20261009-1">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="../index.html" aria-label="Peter El-Khoury, home"><span class="monogram">p<span>.</span></span><span>Peter El-Khoury</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="../index.html#work">Work</a><a href="../index.html#experience">Experience</a><a href="../index.html#about">About</a>
+        <a class="nav-contact" href="../index.html#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="case-hero container" aria-labelledby="case-title">
+      <a class="text-link case-back" href="../index.html#freshops"><span aria-hidden="true">←</span> Back to FreshOps</a>
+      <p class="eyebrow">Independent project / FreshOps</p>
+      <h1 id="case-title">From a booking<br>to a day of operations.</h1>
+      <p class="case-intro">A multi-company operations platform connecting customers, service bookings, staff capacity, dispatch, and payments for a cleaning business.</p>
+      <dl class="case-facts"><div><dt>My contribution</dt><dd>Full stack operations platform and business workflows</dd></div><div><dt>Engineering focus</dt><dd>Company isolation, scheduling, pricing, and dispatch</dd></div><div><dt>Built with</dt><dd>ASP.NET Core · PostgreSQL · JavaScript · Entity Framework Core</dd></div></dl>
+    </section>
+    <div class="container">
+      <figure class="case-media">
+        <a class="screenshot-link" href="../assets/images/freshops.png" data-title="FreshOps" data-caption="Running local demo workspace. Customer and staff records are seeded demo data. Click to enlarge." aria-label="Enlarge FreshOps screenshot"><img src="../assets/images/freshops.png" width="1440" height="960" alt="FreshOps local demo overview with bookings, team capacity and payment summaries" fetchpriority="high"></a>
+        <figcaption>Running local demo workspace. Customer and staff records are seeded demo data. Click to enlarge.</figcaption>
+      </figure>
+      <div class="case-content">
+        <div class="case-story">
+          <section aria-labelledby="problem-title"><p class="eyebrow">01 / Context</p><h2 id="problem-title">The problem</h2><p>A service booking affects more than a calendar. It needs the right price, an available team, a clear job status, and a payment record. Those pieces need to agree as the day changes.</p></section>
+          <section aria-labelledby="contribution-title"><p class="eyebrow">02 / Ownership</p><h2 id="contribution-title">My contribution</h2><p>I built a responsive workspace covering customer records, services, bookings, teams, dispatch, pricing, payments, and reporting. Its multi-company foundation supports role-based access and configurable terminology, fields, forms, and workflows.</p><ol class="case-flow" aria-label="Product workflow"><li>Create the customer booking and calculate its service price.</li><li>Check team availability, assign staff, and coordinate dispatch.</li><li>Track the job lifecycle, payment, and operational history.</li></ol></section>
+          <section aria-labelledby="decisions-title"><p class="eyebrow">03 / Engineering</p><h2 id="decisions-title">Decisions behind the interface</h2><h3>Keep each company’s work in its own context</h3><p>Company-scoped data and permission checks form the foundation of the workspace. Custom roles grant explicit access to the capabilities a team needs.</p><h3>Preserve the price of an existing booking</h3><p>Booking rate snapshots keep historical totals stable when currency rates change. Authorized manual totals require an audit reason, keeping exceptional pricing traceable.</p><h3>Make configuration a controlled change</h3><p>Company-owned configuration moves through draft, validation, and publication. Versioned manifests and a last-valid-revision fallback let business rules evolve around the existing Cleaning template.</p></section>
+          <section aria-labelledby="outcome-title"><p class="eyebrow">04 / Outcome</p><h2 id="outcome-title">What the project delivers</h2><p>The platform brings scheduling, customer history, dispatch, financial records, and setup into a connected workspace. Its demo dashboard provides a real view of the implemented interface.</p></section>
+        </div>
+        <aside class="case-aside" aria-label="Project skills and profile links"><h2>Experience this demonstrates</h2><p>Business-domain modelling, multi-company data access, API validation, operational workflows, and full stack delivery.</p><ul class="tags" aria-label="FreshOps technologies"><li>ASP.NET Core</li><li>PostgreSQL</li><li>JavaScript</li><li>Entity Framework Core</li></ul><a class="text-link" href="../index.html#cv">Download my CV <span aria-hidden="true">↓</span></a><br><a class="text-link" href="https://github.com/peterkhoury97" target="_blank" rel="noopener noreferrer">My GitHub profile <span aria-hidden="true">↗</span></a></aside>
+      </div>
+      <section class="case-cta" aria-labelledby="case-contact-title"><h2 id="case-contact-title">Building something similar?</h2><a class="button primary" href="mailto:peterelkhoury97@gmail.com?subject=FreshOps%20%E2%80%94%20engineering%20conversation">Let’s talk <span aria-hidden="true">↗</span></a></section>
+    </div>
+  </main>
+  <footer class="container footer"><p>© <span id="year">2026</span> Peter El-Khoury</p><p class="footer-note">Thoughtfully built. Simply delivered.</p><div><a href="https://github.com/peterkhoury97" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="../assets/Peter-El-Khoury-CV.pdf" download>CV <span aria-hidden="true">↓</span></a><a href="#main">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+  <dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-top"><h2 id="image-title">Project screenshot</h2><button id="close-dialog" type="button" aria-label="Close screenshot">Close <span aria-hidden="true">×</span></button></div><div class="dialog-image"><img id="enlarged-image" alt=""></div><p id="image-caption"></p></dialog>
+</body>
+</html>

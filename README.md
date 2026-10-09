@@ -1,6 +1,6 @@
 # Peter El-Khoury — software engineer portfolio
 
-A responsive, project-first portfolio built with plain HTML, CSS, and JavaScript. No framework, install, build process, paid service, or runtime API is required.
+A responsive portfolio for a senior Java/.NET software engineer, built with plain HTML, CSS, and JavaScript. It includes employer-attributed achievements, six project stories, three detailed case studies and regional CV downloads. No framework, install, build process, paid service, or runtime API is required.
 
 ## Preview
 
@@ -18,7 +18,7 @@ GitHub Pages supports public repositories on GitHub Free. See [GitHub's Pages do
 
 Publishing repository: [peterkhoury97/peterelkhoury.github.io](https://github.com/peterkhoury97/peterelkhoury.github.io).
 
-The existing `.github/workflows/static.yml` publishes this site when changes are pushed to **main**. It packages only `index.html`, `styles.css`, `script.js`, `.nojekyll`, and `assets/`.
+The existing `.github/workflows/static.yml` publishes this site when changes are pushed to **main**. It packages `index.html`, `styles.css`, `script.js`, `.nojekyll`, `robots.txt`, `sitemap.xml`, `assets/`, and `projects/`.
 
 1. Push changes to **main** in the selected repository.
 2. In **Settings → Pages**, the source should be **GitHub Actions**.
@@ -38,6 +38,9 @@ All image, stylesheet, script, and CV references are relative, so root and proje
 - `script.js`: mobile navigation and accessible screenshot enlargement.
 - `assets/images/`: actual project images.
 - `assets/Peter-El-Khoury-CV.pdf`: downloadable supplied CV.
+- `assets/Peter-El-Khoury-CV-Europe.pdf`, `assets/Peter-El-Khoury-CV-Gulf.pdf`, `assets/Peter-El-Khoury-Resume-Canada.pdf`: two-page regional CV downloads.
+- `projects/`: static Pektrix, FreshOps and Peter Personal Trainer case studies.
+- `robots.txt`, `sitemap.xml`: public page discovery; update the sitemap when adding pages.
 - `docs/screenshot-provenance.md`: source and limitations of every image.
 
 Experience dates match the supplied CV; confirm the current Emcrey role when updating it. The LinkedIn link from the older portfolio was not independently verified and is omitted. Project repositories are not linked until their public URLs are verified.

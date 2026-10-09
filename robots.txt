@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://peterkhoury97.github.io/peterelkhoury.github.io/sitemap.xml

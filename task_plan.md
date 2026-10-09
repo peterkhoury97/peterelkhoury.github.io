@@ -15,15 +15,21 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 9. Render and verify all six pages and document links: complete.
 10. Add Peter Personal Trainer to the portfolio and all three CV editions: complete; real public screenshot, seven CV projects, two pages each.
 11. Publish and verify the trainer addition on GitHub Pages: complete; deployment run 37759286668 succeeded and all 11 public assets matched the local files.
+12. Improve professional positioning, achievement highlights, recruiter access and personal narrative: complete; user approved the recommendation with "proceed".
+13. Add source-backed Pektrix, FreshOps and Personal Trainer case studies: complete.
+14. Check responsive layouts, links, downloads and publish the branding update: in progress.
 
 ## Next Step
-Complete. The updated portfolio is live and verified. Updated regional PDF CVs are saved under output/pdf.
+Check the homepage and three case studies at desktop/mobile sizes, then publish and verify the approved branding update.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
 - Six project stories: Pektrix, FreshOps, trading scanners, LeadBot, Sports Booking, Peter Personal Trainer.
 - User chose both TradingView and P2P scanners under one trading project.
 - Current workspace was empty and had no Git repository at discovery.
+- Keep the established visual design; clarify senior Java/.NET positioning and connect each achievement to its employer.
+- Publish the existing regional CV editions as additional downloads. Preserve the original CV download.
+- LinkedIn, availability, relocation details, portrait and testimonials require real information; do not invent them or add placeholders.
 
 ## Errors Encountered
 | Error | Resolution |
