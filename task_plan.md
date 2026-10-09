@@ -17,10 +17,10 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 11. Publish and verify the trainer addition on GitHub Pages: complete; deployment run 37759286668 succeeded and all 11 public assets matched the local files.
 12. Improve professional positioning, achievement highlights, recruiter access and personal narrative: complete; user approved the recommendation with "proceed".
 13. Add source-backed Pektrix, FreshOps and Personal Trainer case studies: complete.
-14. Check responsive layouts, links, downloads and publish the branding update: in progress.
+14. Check responsive layouts, links, downloads and publish the branding update: complete; Pages run 37953037601 succeeded and all 19 live files matched the reviewed local files.
 
 ## Next Step
-Check the homepage and three case studies at desktop/mobile sizes, then publish and verify the approved branding update.
+Complete. The branding update, three case studies and regional CV downloads are live and verified. LinkedIn, availability, relocation preferences, a portrait and genuine recommendations can be added when provided.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
@@ -43,3 +43,4 @@ Check the homepage and three case studies at desktop/mobile sizes, then publish 
 | TradingView screenshot connector unavailable | Use actual P2P dashboard image for combined card; describe TradingView separately. |
 | Jinja2 unavailable in bundled Python | Render the two original frontend template loops with standard-library substitutions. |
 | Tablet overflow caused by fixed screenshot heights | Set global image height:auto; all five responsive widths pass. |
+| Live hash verification ran while the Pages deployment was still in progress | Wait for the deploy step to complete before verifying newly published files. |

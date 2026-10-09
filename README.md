@@ -1,4 +1,4 @@
-# Peter El-Khoury — software engineer portfolio
+# Peter El-Khoury — senior software engineer portfolio
 
 A responsive portfolio for a senior Java/.NET software engineer, built with plain HTML, CSS, and JavaScript. It includes employer-attributed achievements, six project stories, three detailed case studies and regional CV downloads. No framework, install, build process, paid service, or runtime API is required.
 
