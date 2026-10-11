@@ -57,3 +57,4 @@
 - Visual review identified mixed Arabic/Latin punctuation ordering for .NET; added explicit bidi isolation for technology names and other Latin fragments before final checks.
 - Final bilingual checks passed for eight pages at six widths and 68 internal links, including language persistence/reload, anchor preservation, menus, dialogs/focus, no-JS navigation and blocked storage. Original English regression checks also passed.
 - Reviewed Arabic desktop/mobile layouts and documented translation maintenance and the English-only CV downloads. Prepared Pages packaging for the language script and all four Arabic pages.
+- Published commit 72006d9. GitHub Pages run 38146480398 completed successfully, including the deployment step. All 24 public website files match the reviewed local files. Live browser checks confirmed English/Arabic switching, RTL, remembered preference and the matching case-study page without browser errors.

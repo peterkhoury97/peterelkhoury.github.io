@@ -20,10 +20,10 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 14. Check responsive layouts, links, downloads and publish the branding update: complete; Pages run 37953037601 succeeded and all 19 live files matched the reviewed local files.
 15. Add English/Arabic selection and complete Arabic translations for all four pages: complete.
 16. Verify RTL layouts, language persistence, accessibility, links and no-JS language choice: complete; eight pages at six widths, 68 internal links and mixed Arabic/Latin ordering passed.
-17. Publish and verify the bilingual portfolio: in progress.
+17. Publish and verify the bilingual portfolio: complete; Pages run 38146480398 succeeded, all 24 public files matched and live language selection/persistence checks passed.
 
 ## Next Step
-Publish the reviewed bilingual portfolio and verify all 24 public website files.
+Bilingual portfolio is published and verified. Await any further content updates.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
