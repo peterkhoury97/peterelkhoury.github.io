@@ -47,3 +47,13 @@
 - Homepage and case studies passed at 1440, 1024, 768, 360 and 320px. All 35 local links, target anchors, download signatures and byte-for-byte regional CV copies passed. Screenshot dialogs, focus restoration, case navigation, no-JS views, structured data and existing reduced-motion/menu checks passed without browser/resource errors.
 - Visually reviewed the homepage introduction, achievements, About and CV cards and all three case-study layouts. A transient screenshot omitted FreshOps headings; a fresh capture and computed-style inspection confirmed all headings are present and visible. No production layout change was needed.
 - Published commit 9e800b2. GitHub Pages run 37953037601 completed successfully; all 19 public website files matched local hashes, including the three case studies and three regional CVs. LinkedIn/availability/relocation details were not supplied during the update; retained the known Riyadh/remote-friendly information.
+
+## 2026-10-11
+- User requested selectable English and Arabic. Scope includes the homepage, all three case studies, navigation, metadata, image descriptions and screenshot dialogs.
+- Inventoried 332 unique text/label strings, including stable names, numbers and symbols. Use reviewed Arabic translations and a Latin-name allowlist to reject untranslated prose.
+- Separate static Arabic pages provide a functional language choice without JavaScript; shared preference handling will remember the selected language when storage is available.
+- Added translated static Arabic pages, accessible language links, remembered selection, canonical/hreflang metadata and RTL styling with a compact mobile header. The translator rejects any new English prose without a translation.
+- First bilingual check passed for eight pages at six widths and all 68 local links, including expanded project details, dialogs, menu/focus behavior, preference/reload, hash preservation, no-JS navigation and blocked storage.
+- Visual review identified mixed Arabic/Latin punctuation ordering for .NET; added explicit bidi isolation for technology names and other Latin fragments before final checks.
+- Final bilingual checks passed for eight pages at six widths and 68 internal links, including language persistence/reload, anchor preservation, menus, dialogs/focus, no-JS navigation and blocked storage. Original English regression checks also passed.
+- Reviewed Arabic desktop/mobile layouts and documented translation maintenance and the English-only CV downloads. Prepared Pages packaging for the language script and all four Arabic pages.

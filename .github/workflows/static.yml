@@ -36,9 +36,10 @@ jobs:
       - name: Prepare website files
         run: |
           mkdir -p _site
-          cp index.html styles.css script.js .nojekyll robots.txt sitemap.xml _site/
+          cp index.html styles.css script.js language.js .nojekyll robots.txt sitemap.xml _site/
           cp -R assets _site/assets
           cp -R projects _site/projects
+          cp -R ar _site/ar
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

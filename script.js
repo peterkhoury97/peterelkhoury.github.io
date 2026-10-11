@@ -1,5 +1,12 @@
 document.documentElement.classList.add('js');
 
+const languageLink = document.querySelector('.language-link');
+languageLink?.addEventListener('click', () => {
+  const destination = new URL(languageLink.href);
+  destination.hash = location.hash;
+  languageLink.href = destination.href;
+});
+
 const toggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
 toggle.hidden = false;

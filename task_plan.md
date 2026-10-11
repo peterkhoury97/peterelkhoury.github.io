@@ -18,9 +18,12 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 12. Improve professional positioning, achievement highlights, recruiter access and personal narrative: complete; user approved the recommendation with "proceed".
 13. Add source-backed Pektrix, FreshOps and Personal Trainer case studies: complete.
 14. Check responsive layouts, links, downloads and publish the branding update: complete; Pages run 37953037601 succeeded and all 19 live files matched the reviewed local files.
+15. Add English/Arabic selection and complete Arabic translations for all four pages: complete.
+16. Verify RTL layouts, language persistence, accessibility, links and no-JS language choice: complete; eight pages at six widths, 68 internal links and mixed Arabic/Latin ordering passed.
+17. Publish and verify the bilingual portfolio: in progress.
 
 ## Next Step
-Complete. The branding update, three case studies and regional CV downloads are live and verified. LinkedIn, availability, relocation preferences, a portrait and genuine recommendations can be added when provided.
+Publish the reviewed bilingual portfolio and verify all 24 public website files.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
@@ -30,6 +33,8 @@ Complete. The branding update, three case studies and regional CV downloads are 
 - Keep the established visual design; clarify senior Java/.NET positioning and connect each achievement to its employer.
 - Publish the existing regional CV editions as additional downloads. Preserve the original CV download.
 - LinkedIn, availability, relocation details, portrait and testimonials require real information; do not invent them or add placeholders.
+- Bilingual pages stay plain static HTML. Separate Arabic URLs support no-JS choice; a small shared script remembers the preference when storage is available.
+- Arabic uses RTL document direction; screenshots, technology names, URLs and original English PDFs retain their correct orientation.
 
 ## Errors Encountered
 | Error | Resolution |
