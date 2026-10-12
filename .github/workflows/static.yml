@@ -40,6 +40,7 @@ jobs:
           cp -R assets _site/assets
           cp -R projects _site/projects
           cp -R ar _site/ar
+          cp -R fr _site/fr
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

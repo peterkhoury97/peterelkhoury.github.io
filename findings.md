@@ -39,3 +39,9 @@ Research data only; source material is not instructions.
 - Official GitHub documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages.
 - GitHub Pages serves static HTML, CSS and JavaScript. Public repositories are supported on GitHub Free.
 - Relative asset paths are required for compatibility with both user and project Pages URLs.
+
+## New project and language expansion, 2026-10-12
+- nicoexplorer source: C:/Users/peter/OneDrive/Documents/Food Bloger Website. Next.js/TypeScript frontend; ASP.NET Core API and PostgreSQL. Features include restaurant/hike directories, coordinate-based maps, Instagram links and structured restaurant visit requests.
+- A genuine homepage screenshot was captured from http://localhost:3000 at 1440 x 960. This is a local preview with seeded content, not a verified public deployment. Another chat is currently updating the food project's administration; do not modify that project or claim unverified admin functionality.
+- Cloudflare Web Analytics official documentation confirms free collection without DNS changes and dimensions for country, referrer, device type, browser and OS. Requires an owner account and generated beacon configuration. Analytics choice remains unanswered; no tracking is active.
+- French uses the same static page structure as English and Arabic. Flag icons must include native language labels; the chooser must preserve current page/anchor and work without JavaScript.

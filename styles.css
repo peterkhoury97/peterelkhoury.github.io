@@ -130,21 +130,83 @@ a:hover {
   margin-inline-start:auto
 }
 
-.language-link {
+.language-picker {
+  position:relative;
+  margin:0;
+  padding:0;
+  border:0
+}
+
+.language-picker summary {
   display:inline-flex;
   align-items:center;
   justify-content:center;
+  gap:6px;
   min-height:38px;
-  padding:5px 12px;
+  padding:5px 9px;
   border:1px solid var(--line);
   border-radius:5px;
   font-size:13px;
   font-weight:600;
-  white-space:nowrap
+  white-space:nowrap;
+  direction:ltr;
+  list-style:none
 }
 
-.language-link:hover {
+.language-picker summary:hover {
   border-color:var(--orange)
+}
+
+.language-picker summary span,.language-picker[open] summary span {
+  font-size:inherit;
+  color:inherit;
+  transform:none
+}
+
+.language-picker summary .language-chevron {
+  font-size:16px;
+  line-height:1
+}
+
+.language-picker ul {
+  position:absolute;
+  inset-inline-end:0;
+  top:calc(100% + 8px);
+  width:180px;
+  margin:0;
+  padding:6px;
+  list-style:none;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:var(--paper);
+  box-shadow:0 8px 28px #1830391c;
+  z-index:10
+}
+
+.language-link {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-height:44px;
+  padding:8px 10px;
+  border-radius:4px;
+  font-size:13px;
+  font-weight:600;
+  direction:ltr
+}
+
+.language-link:hover,.language-link[aria-current="page"] {
+  background:var(--sage)
+}
+
+.language-flag {
+  display:block;
+  width:24px;
+  height:16px;
+  object-fit:cover;
+  border-radius:2px;
+  box-shadow:0 0 0 1px #1830391c;
+  flex:none
 }
 
 .wordmark {
@@ -1340,9 +1402,9 @@ img {
     order:3;
     margin-inline-start:0
   }
-  .language-link {
+  .language-picker summary {
     min-height:36px;
-    padding:5px 8px;
+    padding:5px 6px;
     font-size:12px
   }
   .menu-toggle {

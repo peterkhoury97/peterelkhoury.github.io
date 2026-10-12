@@ -1,10 +1,22 @@
 document.documentElement.classList.add('js');
 
-const languageLink = document.querySelector('.language-link');
-languageLink?.addEventListener('click', () => {
-  const destination = new URL(languageLink.href);
-  destination.hash = location.hash;
-  languageLink.href = destination.href;
+const languagePicker = document.querySelector('.language-picker');
+document.querySelectorAll('.language-link').forEach((link) => {
+  link.addEventListener('click', () => {
+    const destination = new URL(link.href);
+    destination.hash = location.hash;
+    link.href = destination.href;
+    if (languagePicker) languagePicker.open = false;
+  });
+});
+document.addEventListener('click', (event) => {
+  if (languagePicker && !languagePicker.contains(event.target)) languagePicker.open = false;
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && languagePicker?.open) {
+    languagePicker.open = false;
+    languagePicker.querySelector('summary').focus();
+  }
 });
 
 const toggle = document.querySelector('.menu-toggle');

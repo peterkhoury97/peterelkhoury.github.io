@@ -1,6 +1,6 @@
 # Peter El-Khoury — senior software engineer portfolio
 
-A responsive English/Arabic portfolio for a senior Java/.NET software engineer, built with plain HTML, CSS, and JavaScript. It includes employer-attributed achievements, six project stories, three detailed case studies and regional CV downloads. No framework, install, build process, paid service, or runtime API is required.
+A responsive English/Arabic/French portfolio for a senior Java/.NET software engineer, built with plain HTML, CSS, and JavaScript. It includes employer-attributed achievements, seven project stories, three detailed case studies and regional CV downloads. No framework, install, build process, paid service, or runtime API is required.
 
 ## Preview
 
@@ -18,7 +18,7 @@ GitHub Pages supports public repositories on GitHub Free. See [GitHub's Pages do
 
 Publishing repository: [peterkhoury97/peterelkhoury.github.io](https://github.com/peterkhoury97/peterelkhoury.github.io).
 
-The existing `.github/workflows/static.yml` publishes this site when changes are pushed to **main**. It packages `index.html`, `styles.css`, `script.js`, `language.js`, `.nojekyll`, `robots.txt`, `sitemap.xml`, `assets/`, `projects/`, and `ar/`.
+The existing `.github/workflows/static.yml` publishes this site when changes are pushed to **main**. It packages `index.html`, `styles.css`, `script.js`, `language.js`, `.nojekyll`, `robots.txt`, `sitemap.xml`, `assets/`, `projects/`, `ar/`, and `fr/`.
 
 1. Push changes to **main** in the selected repository.
 2. In **Settings → Pages**, the source should be **GitHub Actions**.
@@ -36,10 +36,12 @@ All image, stylesheet, script, and CV references are relative, so root and proje
 - `index.html`: introduction, projects, career details, skills, contact, and screenshot captions.
 - `styles.css`: visual design and responsive layout.
 - `script.js`: mobile navigation and accessible screenshot enlargement.
-- `language.js`: remembers English/Arabic selection and preserves the current page and anchor.
+- `language.js`: remembers English/Arabic/French selection and preserves the current page and anchor.
 - `ar/`: generated static Arabic homepage and case studies with RTL layout.
-- `translations/ar.json`: reviewed Arabic translations.
-- `tools/build-arabic.py`: regenerates the Arabic pages and sitemap from English sources and translations.
+- `fr/`: generated static French homepage and case studies.
+- `assets/flags/`: SVG flag icons paired with native language labels.
+- `translations/ar.json`, `translations/fr.json`: reviewed Arabic and French translations.
+- `tools/build_localizations.py`: regenerates the Arabic/French pages, language menus and sitemap from English sources and translations.
 - `assets/images/`: actual project images.
 - `assets/Peter-El-Khoury-CV.pdf`: downloadable supplied CV.
 - `assets/Peter-El-Khoury-CV-Europe.pdf`, `assets/Peter-El-Khoury-CV-Gulf.pdf`, `assets/Peter-El-Khoury-Resume-Canada.pdf`: two-page regional CV downloads.
@@ -49,10 +51,12 @@ All image, stylesheet, script, and CV references are relative, so root and proje
 
 Experience dates match the supplied CV; confirm the current Emcrey role when updating it. The LinkedIn link from the older portfolio was not independently verified and is omitted. Project repositories are not linked until their public URLs are verified.
 
-## English and Arabic
+## English, Arabic and French
 
-Each page has a header link to its counterpart in the other language. The selection is remembered when browser storage is available; explicit `?lang=en` or `?lang=ar` overrides that preference. Static language links also work without JavaScript. Arabic pages translate navigation, content, metadata, image descriptions and screenshot dialogs. Original project screenshots and downloadable CVs remain in English.
+Each page has a compact flag-based language menu with the names English, العربية and Français. The selection is remembered when browser storage is available; explicit `?lang=en`, `?lang=ar` or `?lang=fr` overrides that preference. The native disclosure and static language links also work without JavaScript. Arabic and French pages translate navigation, content, metadata, image descriptions and screenshot dialogs. Original project screenshots and downloadable CVs remain in English.
 
-After editing English content, update matching entries in `translations/ar.json`, then run `python tools/build-arabic.py` and commit the generated `ar/` pages and sitemap. The generator rejects untranslated English prose. Keep technology and brand names in their original form. Python is only needed for authoring; GitHub Pages serves the committed files directly.
+After editing English content, update matching entries in both translation dictionaries, then run `python tools/build_localizations.py` and commit the generated `ar/`, `fr/` pages and sitemap. The generator rejects untranslated English prose. Keep technology and brand names in their original form. The older `python tools/build-arabic.py` command now regenerates both locales too. Python is only needed for authoring; GitHub Pages serves the committed files directly.
+
+The nicoexplorer project screenshot is an original local preview with seeded restaurant/trail content. No live public project URL has been verified. Visitor analytics is not enabled; it requires the owner's analytics account and tracking configuration.
 
 The portfolio never connects to project databases, scraping services, trading systems, or messaging APIs. Screenshot figures are interface content, not portfolio performance claims.

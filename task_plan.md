@@ -21,9 +21,13 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 15. Add English/Arabic selection and complete Arabic translations for all four pages: complete.
 16. Verify RTL layouts, language persistence, accessibility, links and no-JS language choice: complete; eight pages at six widths, 68 internal links and mixed Arabic/Latin ordering passed.
 17. Publish and verify the bilingual portfolio: complete; Pages run 38146480398 succeeded, all 24 public files matched and live language selection/persistence checks passed.
+18. Add nicoexplorer with its genuine screenshot and source-backed project description: complete; included in all three languages and labelled as a local preview.
+19. Add full French pages and accessible flag-based English/Arabic/French selection: complete; four French pages, SVG flags and shared remembered selection.
+20. Verify all three languages and publish the update: in progress; 12 pages at six widths, 98 internal links and all locale combinations passed.
+21. Connect private visitor analytics: awaiting the user's provider choice and site tracking configuration; no collection enabled yet.
 
 ## Next Step
-Bilingual portfolio is published and verified. Await any further content updates.
+Publish the tested trilingual portfolio and verify all 32 public files.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
@@ -49,3 +53,6 @@ Bilingual portfolio is published and verified. Await any further content updates
 | Jinja2 unavailable in bundled Python | Render the two original frontend template loops with standard-library substitutions. |
 | Tablet overflow caused by fixed screenshot heights | Set global image height:auto; all five responsive widths pass. |
 | Live hash verification ran while the Pages deployment was still in progress | Wait for the deploy step to complete before verifying newly published files. |
+| Patch rejected delete/add operations for the same file | Split removal and addition into sequential patches. |
+| Local preview stopped between sessions | Restart the existing static server in a hidden process before browser checks. |
+| Selecting the already active language left the chooser open on same-page navigation | Close the chooser on any language-link click, including the current language. |

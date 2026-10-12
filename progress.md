@@ -58,3 +58,12 @@
 - Final bilingual checks passed for eight pages at six widths and 68 internal links, including language persistence/reload, anchor preservation, menus, dialogs/focus, no-JS navigation and blocked storage. Original English regression checks also passed.
 - Reviewed Arabic desktop/mobile layouts and documented translation maintenance and the English-only CV downloads. Prepared Pages packaging for the language script and all four Arabic pages.
 - Published commit 72006d9. GitHub Pages run 38146480398 completed successfully, including the deployment step. All 24 public website files match the reviewed local files. Live browser checks confirmed English/Arabic switching, RTL, remembered preference and the matching case-study page without browser errors.
+
+## 2026-10-12
+- User extended the update to French and language flags, following the proposed nicoexplorer addition. Continue those concrete portfolio changes while analytics configuration remains pending.
+- Reused the original food blogger homepage screenshot and reviewed source features. Keep its local/seeded preview status explicit; no public URL has been verified.
+- Plan a compact native details-based language chooser with native names and SVG flags, three static locales and a shared remembered preference. Retain the established layout and original English CV downloads.
+- Added seven-project portfolio content with the nicoexplorer screenshot and translated description. Generated four complete French pages and refreshed all Arabic pages, metadata and alternate-language links.
+- Shared language generation now supports English, Arabic and French; the compatibility Arabic command generates both translated locales. Added SVG flag icons and a compact keyboard-accessible menu that also works without JavaScript.
+- Browser checks passed for 12 pages at six widths and all 98 internal links, every locale pair, same-page/anchor preservation, remembered selection/reload, RTL, menu/dialog keyboard and focus behavior, no-JS choice and blocked storage. Corrected same-language menu dismissal found during verification.
+- Visually reviewed French desktop/mobile introduction, both LTR/RTL dropdowns, the food blogger card and French case-study introductions. CV files remain unchanged and analytics collection is not enabled pending owner configuration.
