@@ -23,11 +23,11 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 17. Publish and verify the bilingual portfolio: complete; Pages run 38146480398 succeeded, all 24 public files matched and live language selection/persistence checks passed.
 18. Add nicoexplorer with its genuine screenshot and source-backed project description: complete; included in all three languages and labelled as a local preview.
 19. Add full French pages and accessible flag-based English/Arabic/French selection: complete; four French pages, SVG flags and shared remembered selection.
-20. Verify all three languages and publish the update: in progress; 12 pages at six widths, 98 internal links and all locale combinations passed.
+20. Verify all three languages and publish the update: complete; 12 pages at six widths and 98 local links passed. Pages run 38250059939 succeeded; all 32 public files match and live three-language navigation passed.
 21. Connect private visitor analytics: awaiting the user's provider choice and site tracking configuration; no collection enabled yet.
 
 ## Next Step
-Publish the tested trilingual portfolio and verify all 32 public files.
+Await the analytics provider/account configuration to connect the private visitor dashboard. The trilingual portfolio and food blogger addition are published and verified.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
