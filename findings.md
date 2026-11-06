@@ -45,3 +45,12 @@ Research data only; source material is not instructions.
 - A genuine homepage screenshot was captured from http://localhost:3000 at 1440 x 960. This is a local preview with seeded content, not a verified public deployment. Another chat is currently updating the food project's administration; do not modify that project or claim unverified admin functionality.
 - Cloudflare Web Analytics official documentation confirms free collection without DNS changes and dimensions for country, referrer, device type, browser and OS. Requires an owner account and generated beacon configuration. Analytics choice remains unanswered; no tracking is active.
 - French uses the same static page structure as English and Arabic. Flag icons must include native language labels; the chooser must preserve current page/anchor and work without JavaScript.
+
+## Architecture evidence checked 2026-11-06
+- Pektrix: the project architecture guide and AppHost show the ASP.NET Core API and SignalR, Blazor console, PostgreSQL tenant boundaries and separate notification service.
+- FreshOps: the solution and startup code show a single ASP.NET Core deployable with internal application, domain and infrastructure modules. The README documents shared configuration, dedicated databases for new companies and an explicit compatibility path for existing ones.
+- TradingView and P2P: the automation README documents scheduled Node scripts and duplicate suppression; the P2PSaudi README documents Clean Architecture, exchange adapters, a scan worker, EF Core/PostgreSQL and an API streaming alerts to React.
+- LeadBot: the README architecture map confirms the modular async Python pipeline, Flask, Redis, Socket.IO and export/sync boundaries.
+- Sports Booking: the OneGame solution map separates web, business and persistence projects and documents the separate SignalR/MongoDB chat API.
+- Personal Trainer: the current README and package manifest show the self-hosted React/Node.js/PostgreSQL setup and private filesystem photo storage. The screenshot and still-reachable hosted version represent the earlier Cloudflare D1/R2 setup; keep the two clearly labelled.
+- nicoexplorer: the current README documents Next.js public and staff screens, a private ASP.NET Core API, PostgreSQL and server-side upload storage. No public deployment URL is claimed.

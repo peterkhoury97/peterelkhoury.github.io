@@ -68,3 +68,9 @@
 - Browser checks passed for 12 pages at six widths and all 98 internal links, every locale pair, same-page/anchor preservation, remembered selection/reload, RTL, menu/dialog keyboard and focus behavior, no-JS choice and blocked storage. Corrected same-language menu dismissal found during verification.
 - Visually reviewed French desktop/mobile introduction, both LTR/RTL dropdowns, the food blogger card and French case-study introductions. CV files remain unchanged and analytics collection is not enabled pending owner configuration.
 - Published website commit 501a585. GitHub Pages run 38250059939 completed successfully, including the deployment step. All 32 public files match the reviewed local files; live browser checks passed for the flag menu, English/Arabic/French switching, retained anchors, food blogger card, remembered French and the corresponding Arabic case study.
+
+## 2026-11-06
+- Checked architecture descriptions against the seven project sources, including both scanners. Added visible architecture summaries to all cards and matching sections to the three existing case studies in all locales.
+- Clarified that Personal Trainer's current self-hosted version uses Node.js, PostgreSQL and private files, while the screenshot and hosted link show the original D1/R2 version. The hosted link returned HTTP 200 in a browser.
+- Regenerated the Arabic and French pages and sitemap, and started responsive and language navigation checks.
+- Verified the architecture summaries on 12 pages at six widths, including right-to-left layout, all 98 internal links, locale switching and keyboard controls. Reviewed desktop and mobile captures in all three languages.

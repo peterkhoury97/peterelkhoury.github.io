@@ -1002,6 +1002,35 @@ details[open] summary span {
   color:var(--ink)
 }
 
+.project-architecture {
+  margin-block:18px;
+  padding-inline-start:14px;
+  border-inline-start:2px solid var(--sage)
+}
+
+.project-architecture h4 {
+  margin:0 0 4px;
+  color:var(--muted);
+  font-size:11px;
+  letter-spacing:.1em;
+  text-transform:uppercase
+}
+
+html[dir="rtl"] .project-architecture h4 {
+  letter-spacing:0
+}
+
+.project-architecture p {
+  margin:0;
+  font-size:13px;
+  line-height:1.6;
+  color:var(--ink)
+}
+
+.project-architecture p + p {
+  margin-block-start:7px
+}
+
 .featured-copy .screenshot-link {
   margin-top:20px
 }

@@ -2,6 +2,8 @@
 
 A responsive English/Arabic/French portfolio for a senior Java/.NET software engineer, built with plain HTML, CSS, and JavaScript. It includes employer-attributed achievements, seven project stories, three detailed case studies and regional CV downloads. No framework, install, build process, paid service, or runtime API is required.
 
+Each project card includes an architecture summary covering its main components and how they connect. The trading card explains the TradingView automation and P2P scanner separately. The trainer entry distinguishes the self-hosted architecture from the original hosted version in its screenshot.
+
 ## Preview
 
 Open `index.html` directly, or serve this folder with any static server. For example, with Python installed:

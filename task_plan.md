@@ -25,9 +25,11 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 19. Add full French pages and accessible flag-based English/Arabic/French selection: complete; four French pages, SVG flags and shared remembered selection.
 20. Verify all three languages and publish the update: complete; 12 pages at six widths and 98 local links passed. Pages run 38250059939 succeeded; all 32 public files match and live three-language navigation passed.
 21. Connect private visitor analytics: awaiting the user's provider choice and site tracking configuration; no collection enabled yet.
+22. Verify each project architecture against its source and describe the components and data flow: complete.
+23. Publish architecture summaries in English, Arabic and French: in progress; responsive and language checks running.
 
 ## Next Step
-Await the analytics provider/account configuration to connect the private visitor dashboard. The trilingual portfolio and food blogger addition are published and verified.
+Add the verified architecture summaries and check the three localized versions before publishing.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.

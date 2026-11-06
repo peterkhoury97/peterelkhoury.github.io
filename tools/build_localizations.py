@@ -149,7 +149,7 @@ def build():
     for prefix in ('','ar/','fr/'):
         for source in sources:
             route = '' if source.as_posix() == 'index.html' else source.as_posix()
-            sitemap += f'  <url><loc>{BASE}{prefix}{route}</loc><lastmod>2026-10-12</lastmod></url>\n'
+            sitemap += f'  <url><loc>{BASE}{prefix}{route}</loc><lastmod>2026-11-06</lastmod></url>\n'
     (ROOT/'sitemap.xml').write_text(sitemap + '</urlset>\n', encoding='utf-8')
 
 if __name__ == '__main__': build()
