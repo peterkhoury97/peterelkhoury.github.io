@@ -74,3 +74,4 @@
 - Clarified that Personal Trainer's current self-hosted version uses Node.js, PostgreSQL and private files, while the screenshot and hosted link show the original D1/R2 version. The hosted link returned HTTP 200 in a browser.
 - Regenerated the Arabic and French pages and sitemap, and started responsive and language navigation checks.
 - Verified the architecture summaries on 12 pages at six widths, including right-to-left layout, all 98 internal links, locale switching and keyboard controls. Reviewed desktop and mobile captures in all three languages.
+- Published commit 423bddd via Pages run 42232136719. All 32 public files matched the reviewed local files, and live browser checks confirmed the seven localized architecture blocks and case-study headings.
