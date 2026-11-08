@@ -1,17 +1,18 @@
 document.documentElement.classList.add('js');
 
-const workflow = document.querySelector('.workflow');
-if (workflow) {
-  const replay = workflow.querySelector('.workflow-replay');
+const workflows = document.querySelectorAll('.workflow');
+if (workflows.length) {
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   function syncMotionPreference() {
-    replay.hidden = motion.matches;
-    if (motion.matches) workflow.classList.remove('workflow-running');
+    for (const workflow of workflows) {
+      workflow.querySelector('.workflow-replay').hidden = motion.matches;
+      if (motion.matches) workflow.classList.remove('workflow-running');
+    }
   }
-  function playWorkflow() {
+  function playWorkflow(workflow) {
     if (motion.matches) return;
     workflow.classList.remove('workflow-running');
-    // Reset the CSS timeline so replay always begins at document intake.
+    // Reset only this diagram's CSS timeline before replaying it.
     void workflow.offsetWidth;
     workflow.classList.add('workflow-running');
   }
@@ -19,16 +20,19 @@ if (workflow) {
   syncMotionPreference();
   motion.addEventListener('change', syncMotionPreference);
   const observer = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
-    if (!entries.some((entry) => entry.isIntersecting)) return;
-    observer.disconnect();
-    playWorkflow();
+    for (const entry of entries) {
+      if (entry.intersectionRatio < .35) continue;
+      observer.unobserve(entry.target);
+      playWorkflow(entry.target);
+    }
   }, { threshold: .35 }) : null;
-  if (observer) observer.observe(workflow);
-  else playWorkflow();
-  replay.addEventListener('click', () => {
-    observer?.disconnect();
-    playWorkflow();
-  });
+  for (const workflow of workflows) {
+    observer?.observe(workflow);
+    workflow.querySelector('.workflow-replay').addEventListener('click', () => {
+      observer?.unobserve(workflow);
+      playWorkflow(workflow);
+    });
+  }
 }
 
 const languagePicker = document.querySelector('.language-picker');

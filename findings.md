@@ -59,3 +59,5 @@ Research data only; source material is not instructions.
 - The previous introduction uses a generic slogan, tilted screenshots and a repeated capability strip. The redesign uses the owner’s name, concrete work, plain headings and a workflow schematic.
 - Letters of credit and guarantees are grounded in the existing employment history. The Java, .NET and SQL steps are an illustrative combination, not a diagram of a bank’s production architecture.
 - The diagram should remain readable without JavaScript and with reduced motion. Automatic motion runs only once when the diagram is visible; replay is optional.
+
+- The project cards can reuse the banking animation's shared timing and controls with a compact three-step layout. The trading card needs separate TradingView and P2P sequences because their inputs and outputs differ.

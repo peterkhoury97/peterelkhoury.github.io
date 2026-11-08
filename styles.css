@@ -492,7 +492,7 @@ h1 {
   outline-color:#a6e0c9
 }
 
-.workflow-running li {
+.workflow-running .workflow-steps li {
   animation:workflow-pass .8s ease-in-out var(--step-delay, 0s) both
 }
 
@@ -502,6 +502,96 @@ h1 {
 
 @keyframes workflow-pass {
   20%,75% {background-color:#285047;border-color:#70c3a3}
+}
+
+.project-workflow {
+  margin-block:18px;
+  padding:11px;
+  color:var(--ink);
+  background:#eaf0ea;
+  border-color:var(--line);
+  box-shadow:none
+}
+
+.project-workflow figcaption {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:0 10px;
+  margin-bottom:3px
+}
+
+.project-workflow h4 {
+  margin:0;
+  font-size:12px
+}
+
+.project-workflow .workflow-replay {
+  min-height:28px;
+  color:var(--accent-color);
+  font-size:11px
+}
+
+.project-workflow .workflow-replay:focus-visible {
+  outline-color:var(--accent-color)
+}
+
+.project-workflow .workflow-steps {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:4px
+}
+
+.project-workflow .workflow-steps::before {
+  inset-block:17px auto;
+  inset-inline:17px calc(33.333% - 17px);
+  width:auto;
+  height:1px;
+  background:#a9b9ad
+}
+
+.project-workflow .workflow-steps li {
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  gap:5px;
+  padding:6px;
+  min-width:0;
+  min-height:0
+}
+
+.project-workflow .workflow-step {
+  width:21px;
+  height:21px;
+  color:var(--accent-color);
+  background:#f7f9f5;
+  border-color:#a7b9ad;
+  font-size:10px
+}
+
+.project-workflow .workflow-steps strong {
+  font-size:11px;
+  overflow-wrap:anywhere
+}
+
+.project-workflow .workflow-track {
+  margin:6px 6px 1px;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700
+}
+
+.project-workflow.workflow-running .workflow-steps li {
+  animation-name:project-workflow-pass;
+  animation-duration:.66s
+}
+
+.project-workflow .workflow-steps li:nth-child(2) { --step-delay:.68s }
+.project-workflow .workflow-steps li:nth-child(3) { --step-delay:1.36s }
+
+@keyframes project-workflow-pass {
+  20%,75% {background-color:#cfe4d7;border-color:#60937d}
 }
 
 .window-bar {

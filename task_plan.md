@@ -29,9 +29,11 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 23. Publish architecture summaries in English, Arabic and French: complete; GitHub Pages run 42232136719 succeeded, all 32 public files matched and live locale checks passed.
 24. Refresh the theme and replace the hero collage with an illustrative, accessible banking workflow: complete.
 25. Verify the design and motion in all languages, then publish to GitHub Pages: complete; Pages run 42518567932 succeeded, live motion checks passed and all 32 files matched.
+26. Add compact project workflow animations that reuse the banking diagram behavior: complete.
+27. Verify the sequences in all three languages and publish: in progress.
 
 ## Next Step
-The theme refresh is live and verified. The prior analytics account configuration remains pending.
+Verify the final localized layouts and publish the workflow update.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.

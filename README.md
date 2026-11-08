@@ -6,6 +6,8 @@ Each project card includes an architecture summary covering its main components 
 
 The homepage uses an engineering journal theme with an illustrative bank guarantee workflow. The diagram is readable without JavaScript and animates once when it comes into view, with optional replay and support for reduced motion.
 
+Each project card has a smaller workflow diagram using the same playback behavior. TradingView and P2P scanning are shown as separate sequences.
+
 ## Preview
 
 Open `index.html` directly, or serve this folder with any static server. For example, with Python installed:
