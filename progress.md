@@ -80,3 +80,4 @@
 - Reworked the site with an editorial type treatment, paper and navy palette, green accents and concrete personal copy. Replaced the hero screenshot collage with a localized bank guarantee workflow, while retaining all real project screenshots and case studies.
 - Added short, ordered stage highlights that run once on entry and can be replayed. The four steps stay readable without scripting, and reduced-motion settings suppress the animation.
 - Reviewed English, Arabic and French desktop/mobile captures. Targeted playback, keyboard, reduced-motion and no-script checks passed. Full checks also passed on 12 pages at six widths and all 98 internal links.
+- Published commit 1cd019a via Pages run 42518567932. Confirmed workflow playback, keyboard replay and motion fallbacks on the public site, and verified all 32 deployed files against the reviewed versions.

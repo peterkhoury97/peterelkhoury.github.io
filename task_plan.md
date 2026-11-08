@@ -28,10 +28,10 @@ Create a simple HTML/CSS/JavaScript portfolio for Peter El-Khoury, grounded in h
 22. Verify each project architecture against its source and describe the components and data flow: complete.
 23. Publish architecture summaries in English, Arabic and French: complete; GitHub Pages run 42232136719 succeeded, all 32 public files matched and live locale checks passed.
 24. Refresh the theme and replace the hero collage with an illustrative, accessible banking workflow: complete.
-25. Verify the design and motion in all languages, then publish to GitHub Pages: in progress; browser and visual checks passed.
+25. Verify the design and motion in all languages, then publish to GitHub Pages: complete; Pages run 42518567932 succeeded, live motion checks passed and all 32 files matched.
 
 ## Next Step
-Publish the reviewed engineering journal refresh and verify the live site.
+The theme refresh is live and verified. The prior analytics account configuration remains pending.
 
 ## Decisions
 - Plain HTML, CSS, JavaScript; no framework or build step.
