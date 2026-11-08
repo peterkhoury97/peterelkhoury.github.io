@@ -83,3 +83,4 @@
 - Published commit 1cd019a via Pages run 42518567932. Confirmed workflow playback, keyboard replay and motion fallbacks on the public site, and verified all 32 deployed files against the reviewed versions.
 - Added seven localized project diagrams and eight sequences, including two for the trading card. Shared playback now observes each diagram independently and replays only the selected one. Checked 320px mobile and desktop captures and shortened French trading labels for narrow columns.
 - Passed targeted checks for every card, independent visibility and replay, the retained hero animation, reduced motion and no-script access. Full navigation and layout checks passed across 12 pages, six widths and 98 internal links.
+- Published commit 69d4ed2 through Pages run 42519581858. All 32 public files matched the reviewed local files, and the public browser checks confirmed the seven diagrams, eight sequences and motion controls.
