@@ -54,3 +54,8 @@ Research data only; source material is not instructions.
 - Sports Booking: the OneGame solution map separates web, business and persistence projects and documents the separate SignalR/MongoDB chat API.
 - Personal Trainer: the current README and package manifest show the self-hosted React/Node.js/PostgreSQL setup and private filesystem photo storage. The screenshot and still-reachable hosted version represent the earlier Cloudflare D1/R2 setup; keep the two clearly labelled.
 - nicoexplorer: the current README documents Next.js public and staff screens, a private ASP.NET Core API, PostgreSQL and server-side upload storage. No public deployment URL is claimed.
+
+## Theme refresh, 2026-11-08
+- The previous introduction uses a generic slogan, tilted screenshots and a repeated capability strip. The redesign uses the owner’s name, concrete work, plain headings and a workflow schematic.
+- Letters of credit and guarantees are grounded in the existing employment history. The Java, .NET and SQL steps are an illustrative combination, not a diagram of a bank’s production architecture.
+- The diagram should remain readable without JavaScript and with reduced motion. Automatic motion runs only once when the diagram is visible; replay is optional.

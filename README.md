@@ -4,6 +4,8 @@ A responsive English/Arabic/French portfolio for a senior Java/.NET software eng
 
 Each project card includes an architecture summary covering its main components and how they connect. The trading card explains the TradingView automation and P2P scanner separately. The trainer entry distinguishes the self-hosted architecture from the original hosted version in its screenshot.
 
+The homepage uses an engineering journal theme with an illustrative bank guarantee workflow. The diagram is readable without JavaScript and animates once when it comes into view, with optional replay and support for reduced motion.
+
 ## Preview
 
 Open `index.html` directly, or serve this folder with any static server. For example, with Python installed:

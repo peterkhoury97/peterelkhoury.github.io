@@ -75,3 +75,8 @@
 - Regenerated the Arabic and French pages and sitemap, and started responsive and language navigation checks.
 - Verified the architecture summaries on 12 pages at six widths, including right-to-left layout, all 98 internal links, locale switching and keyboard controls. Reviewed desktop and mobile captures in all three languages.
 - Published commit 423bddd via Pages run 42232136719. All 32 public files matched the reviewed local files, and live browser checks confirmed the seven localized architecture blocks and case-study headings.
+
+## 2026-11-08
+- Reworked the site with an editorial type treatment, paper and navy palette, green accents and concrete personal copy. Replaced the hero screenshot collage with a localized bank guarantee workflow, while retaining all real project screenshots and case studies.
+- Added short, ordered stage highlights that run once on entry and can be replayed. The four steps stay readable without scripting, and reduced-motion settings suppress the animation.
+- Reviewed English, Arabic and French desktop/mobile captures. Targeted playback, keyboard, reduced-motion and no-script checks passed. Full checks also passed on 12 pages at six widths and all 98 internal links.

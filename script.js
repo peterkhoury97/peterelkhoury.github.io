@@ -1,5 +1,36 @@
 document.documentElement.classList.add('js');
 
+const workflow = document.querySelector('.workflow');
+if (workflow) {
+  const replay = workflow.querySelector('.workflow-replay');
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  function syncMotionPreference() {
+    replay.hidden = motion.matches;
+    if (motion.matches) workflow.classList.remove('workflow-running');
+  }
+  function playWorkflow() {
+    if (motion.matches) return;
+    workflow.classList.remove('workflow-running');
+    // Reset the CSS timeline so replay always begins at document intake.
+    void workflow.offsetWidth;
+    workflow.classList.add('workflow-running');
+  }
+
+  syncMotionPreference();
+  motion.addEventListener('change', syncMotionPreference);
+  const observer = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
+    if (!entries.some((entry) => entry.isIntersecting)) return;
+    observer.disconnect();
+    playWorkflow();
+  }, { threshold: .35 }) : null;
+  if (observer) observer.observe(workflow);
+  else playWorkflow();
+  replay.addEventListener('click', () => {
+    observer?.disconnect();
+    playWorkflow();
+  });
+}
+
 const languagePicker = document.querySelector('.language-picker');
 document.querySelectorAll('.language-link').forEach((link) => {
   link.addEventListener('click', () => {
